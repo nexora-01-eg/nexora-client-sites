@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-en="La Boutique — Mansoura | Luxury furniture maison (Official site)">La Boutique — المنصورة | ميزون الأثاث الفاخر (الموقع الرسمي)</title>
+<meta name="description" content="La Boutique المنصورة — مصر: تشكيلة مختارة من الأثاث الفاخر 5.0★، شوروم خاص بالحجز في عمارة الأوقاف، وتوصيل حتى خارج مصر.">
+<meta name="theme-color" content="#F4EEE2">
+<meta property="og:title" content="La Boutique Mansoura — الموقع الرسمي">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FurnitureStore","name":"La Boutique Furniture — Mansoura, Egypt (Official)","address":{"@type":"PostalAddress","streetAddress":"عمارة الأوقاف، شارع الأتوبيس القديم، الدور 4 مكتب 19","addressLocality":"المنصورة","addressCountry":"EG"},"telephone":"+201111212250","aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","bestRating":"5"},"openingHours":"Mo-Th,Sa-Su 10:00-22:00"}</script>
+<style>
+:root{
+  --ivory:#F4EEE2; --ivory2:#EAE1D0; --card:#FBF8F1;
+  --esp:#221812; --esp2:#3A2B1E; --taupe:#8A7A64;
+  --gold:#A98B54; --gold-d:#7E6535; --line:#D9CCB2; --ease:cubic-bezier(.22,1,.36,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--ivory);color:var(--esp);font-family:'Amiri',serif;line-height:2}
+.lat{font-family:'Cormorant Garamond',serif;direction:ltr;display:inline-block}
+h1,h2,h3{line-height:1.7;font-weight:700}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+section{padding:80px 0}
+.rv{opacity:0;transform:translateY(22px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--gold-d);outline-offset:3px}
+.rule{width:72px;height:1px;background:var(--gold);margin:18px auto}
+/* هيدر رفيع */
+header{border-bottom:1px solid var(--line);background:rgba(244,238,226,.92);backdrop-filter:blur(8px);position:sticky;top:0;z-index:50}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:78px}
+.brand{text-align:center}
+.brand .lat{font-size:26px;letter-spacing:.28em;color:var(--esp)}
+.brand small{display:block;font-size:13px;color:var(--taupe);letter-spacing:0}
+.nav-links{display:flex;gap:30px;color:var(--taupe);font-size:17px}
+.nav-links a:hover{color:var(--esp)}
+.btn{display:inline-block;font-family:'Amiri';font-weight:700;font-size:18px;padding:13px 38px;cursor:pointer;border:1px solid var(--esp);transition:.4s var(--ease);background:transparent;color:var(--esp)}
+.btn:hover{background:var(--esp);color:var(--ivory)}
+.btn.solid{background:var(--esp);color:var(--ivory)}
+.btn.solid:hover{background:var(--esp2)}
+/* هيرو */
+.hero{text-align:center;padding:90px 0 60px;position:relative}
+.hero .sigil{width:64px;height:64px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;margin:0 auto 20px;font-size:26px;color:var(--gold-d)}
+.hero .lat.big{font-size:clamp(56px,10vw,120px);color:var(--esp);line-height:1.05;display:block}
+.hero h1{font-size:clamp(30px,4.6vw,52px);margin-top:6px}
+.hero h1 em{font-style:normal;color:var(--gold-d)}
+.hero p.lead{color:var(--taupe);font-size:20px;max-width:620px;margin:6px auto 0}
+.off{display:inline-block;border:1px solid var(--gold);color:var(--gold-d);border-radius:999px;padding:7px 24px;font-size:16px;margin-bottom:18px;background:rgba(169,139,84,.07)}
+.hero-cta{display:flex;gap:14px;justify-content:center;margin-top:30px;flex-wrap:wrap}
+.meta{display:flex;gap:26px;justify-content:center;margin-top:26px;color:var(--taupe);font-size:16px;flex-wrap:wrap}
+/* فلسفة */
+.philo{text-align:center;max-width:760px;margin:0 auto}
+.philo p{font-size:22px;color:var(--esp2)}
+.philo p b{color:var(--gold-d)}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:44px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.trio div{padding:34px 24px;text-align:center;border-left:1px solid var(--line)}
+.trio div:last-child{border-left:none}
+.trio .n{font-family:'Cormorant Garamond';font-size:40px;color:var(--gold)}
+.trio h3{font-size:21px}
+.trio p{color:var(--taupe);font-size:16.5px}
+/* لوك بوك أفقي */
+.look{background:var(--esp);color:var(--ivory);border-radius:4px;padding:70px 0;margin:20px 0}
+.look h2{text-align:center;font-size:clamp(28px,4vw,44px)}
+.look .rule{background:var(--gold)}
+.look p.sub{text-align:center;color:#B7A88E;max-width:560px;margin:0 auto}
+.rail{display:flex;gap:20px;overflow-x:auto;padding:36px 28px 10px;scroll-snap-type:x mandatory}
+.rail::-webkit-scrollbar{height:6px}
+.rail::-webkit-scrollbar-thumb{background:var(--gold-d);border-radius:3px}
+.piece{flex:0 0 300px;scroll-snap-align:center;background:#2C2115;border:1px solid #4A3A26;border-radius:4px;overflow:hidden}
+.piece .ph{height:260px;display:grid;place-items:center;font-size:84px;background:linear-gradient(160deg,#3A2C1B,#1D1409)}
+.piece .bd{padding:22px}
+.piece .no{font-family:'Cormorant Garamond';color:var(--gold);font-size:20px;letter-spacing:.2em}
+.piece h3{font-size:22px}
+.piece p{color:#B7A88E;font-size:16px}
+.piece a{color:var(--gold);font-size:16.5px;font-weight:700}
+.hint{text-align:center;color:#8A7A64;font-size:15px;margin-top:8px}
+/* حجز */
+.book{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.book h2{font-size:clamp(28px,4vw,44px)}
+.book p{color:var(--taupe);font-size:18px}
+.form{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:38px 34px;box-shadow:0 24px 60px rgba(34,24,18,.1)}
+.form h3{font-size:24px;text-align:center}
+.form .rule{margin:12px auto 24px}
+.form label{display:block;font-size:17px;margin:14px 0 6px;color:var(--esp2)}
+.form input,.form select{width:100%;background:#fff;border:1px solid var(--line);border-radius:4px;padding:13px 14px;font-family:'Amiri';font-size:17px;color:var(--esp)}
+.form .btn{width:100%;margin-top:22px;text-align:center}
+/* قنوات */
+.chan{border:1px solid var(--line);border-radius:4px;background:var(--card);padding:40px 34px;text-align:center}
+.chan h2{font-size:clamp(24px,3.6vw,38px)}
+.chan-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px;text-align:right}
+.ok,.no{border-radius:4px;padding:22px;font-size:17px}
+.ok{border:1px solid var(--gold);background:rgba(169,139,84,.07)}
+.no{border:1px dashed var(--line);color:var(--taupe)}
+.ok h3{color:var(--gold-d)}
+ul.tick{list-style:none;margin-top:8px}
+ul.tick li{padding:3px 0}
+ul.tick li:before{content:"— ";color:var(--gold-d)}
+/* آراء */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}
+.rev{border-top:1px solid var(--gold);padding-top:20px}
+.rev .st{color:var(--gold-d);letter-spacing:3px}
+.rev p{font-size:18.5px;color:var(--esp2)}
+.rev b{color:var(--taupe);font-size:15.5px}
+/* أسئلة */
+.faq{max-width:760px;margin:26px auto 0}
+details{background:var(--card);border:1px solid var(--line);border-radius:4px;margin-bottom:10px;padding:16px 22px}
+summary{cursor:pointer;font-weight:700;font-size:18px;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";float:left;color:var(--gold-d);font-size:24px}
+details[open] summary:after{content:"−"}
+details p{color:var(--taupe);margin-top:6px;font-size:16.5px}
+/* ختام */
+.final{text-align:center;padding:40px 0 10px}
+.final .lat{font-size:64px;color:var(--esp)}
+.final h2{font-size:clamp(28px,4.6vw,50px)}
+footer{border-top:1px solid var(--line);padding:34px 0;color:var(--taupe);font-size:15.5px;margin-top:50px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+.wa{position:fixed;bottom:22px;left:22px;z-index:60;background:#1FA855;color:#F4EEE2;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:26px;box-shadow:0 12px 28px rgba(34,24,18,.3);font-family:'IBM Plex Sans Arabic',sans-serif}
+/* حركات CX */
+.lat.big .ch{display:inline-block;opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s var(--ease)}
+.lat.big.split-in .ch{opacity:1;transform:none}
+#look.curtain{clip-path:inset(0 0 100% 0)}
+#look.curtain.drawn{clip-path:inset(0 0 0% 0);transition:clip-path 1.1s ease}
+.rail .ph{will-change:transform}
+.cursor-glow{position:fixed;top:0;left:0;width:320px;height:320px;border-radius:50%;pointer-events:none;z-index:1;background:radial-gradient(circle,rgba(169,139,84,.14),transparent 65%);mix-blend-mode:multiply}
+.btn:active{transform:scale(.97)}
+.shake{animation:shake .4s}
+@keyframes shake{25%{transform:translateX(6px)}50%{transform:translateX(-6px)}75%{transform:translateX(4px)}}
+.nx-toast{position:fixed;bottom:26px;right:50%;transform:translateX(50%) translateY(20px);background:var(--esp);color:var(--ivory);border:1px solid var(--gold);border-radius:999px;padding:11px 26px;font-size:16px;z-index:130;opacity:0;pointer-events:none;transition:.4s var(--ease);max-width:92vw;text-align:center}
+.nx-toast.show{opacity:1;transform:translateX(50%) translateY(0)}
+@media(max-width:600px){.nx-toast{bottom:94px}}
+/* طبقة ديمو NEXORA */
+.nx-bar{background:var(--esp);border-bottom:2px solid var(--gold);position:relative;z-index:90}
+.nx-bar-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap;font-size:16px;color:var(--ivory)}
+.nx-dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold);animation:blink 2s infinite}
+@keyframes blink{50%{opacity:.35}}
+.nx-cta{border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 20px;font-size:15px;margin-right:auto}
+.nx-cta:hover{background:var(--gold);color:var(--esp)}
+.nx-x{background:none;border:1px solid #4A3A26;color:#B7A88E;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:15px}
+/* فن الجاليري */
+::selection{background:var(--esp);color:var(--ivory)}
+::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:var(--ivory2)}::-webkit-scrollbar-thumb{background:var(--gold);border-radius:6px}
+.look .piece .ph{animation:kb 16s ease-in-out infinite alternate}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.1)}}
+.look .phe{display:inline-block;will-change:transform}
+.look h2.shimmer{background:linear-gradient(100deg,var(--ivory) 38%,var(--gold) 50%,var(--ivory) 62%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:shim 5.5s ease-in-out infinite}
+@keyframes shim{0%,100%{background-position:110% 0}50%{background-position:-10% 0}}
+.look{position:relative;overflow:hidden}
+#motes{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.look>*:not(canvas){position:relative;z-index:1}
+.form{position:relative}
+.seal{position:absolute;top:-37px;right:30px;width:74px;height:74px;border-radius:50%;background:var(--card);border:1px solid var(--gold);display:grid;place-items:center;font-family:'Cormorant Garamond';font-size:24px;color:var(--gold-d);box-shadow:0 10px 26px rgba(34,24,18,.15)}
+.seal:after{content:"";position:absolute;inset:6px;border-radius:50%;border:1px dashed var(--gold);animation:spin 26s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.look .piece .ph,.look h2.shimmer,.seal:after{animation:none}.look h2.shimmer{color:var(--ivory);background:none;-webkit-text-fill-color:var(--ivory)}}
+/* الجولة البصرية */
+#petals{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.hero .wrap{position:relative;z-index:1}
+.btn{position:relative;overflow:hidden}
+.rip{position:absolute;border-radius:50%;background:rgba(255,255,255,.55);transform:scale(0);animation:rip .6s ease-out forwards;pointer-events:none}
+@keyframes rip{to{transform:scale(2.6);opacity:0}}
+@media (prefers-reduced-motion:reduce){#petals{display:none}.rip{display:none}}
+/* العرض الخاص */
+#loader{position:fixed;inset:0;z-index:200;background:var(--ivory);display:grid;place-items:center;transition:opacity .8s ease,visibility .8s}
+#loader.lift{opacity:0;visibility:hidden}
+#loader .lat{font-size:42px;letter-spacing:.3em;color:var(--esp)}
+#loader .lline{width:0;height:1px;background:var(--gold-d);margin:14px auto 0;animation:lline 1.2s ease forwards}
+@keyframes lline{to{width:200px}}
+#loader p{color:var(--taupe);font-size:15px;margin-top:10px}
+.hero{position:relative;overflow:hidden}
+.cine{position:absolute;left:0;right:0;height:6vh;background:#14100A;z-index:4}
+.cine.top{top:0;transform-origin:top}.cine.bot{bottom:0;transform-origin:bottom}
+.bmarq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;padding:12px 0;background:var(--card);direction:ltr}
+.bmarq-track{display:flex;white-space:nowrap;width:max-content;animation:mq 32s linear infinite}
+.bmarq-track span{font-family:'Cormorant Garamond';font-size:19px;letter-spacing:.24em;color:var(--gold-d);padding-right:12px}
+@keyframes mq{to{transform:translateX(-50%)}}
+.fin{font-family:'Cormorant Garamond';letter-spacing:.5em;color:var(--gold-d);font-size:15px;margin-bottom:12px;direction:ltr}
+@media (prefers-reduced-motion:reduce){#loader{display:none}.cine{display:none}.bmarq-track{animation:none}#loader .lline{animation:none}}
+.nx-tour{background:none;border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 16px;font-size:14px;cursor:pointer;font-family:'Amiri'}
+.tour-glow{outline:2px solid var(--gold-d)!important;outline-offset:8px}
+.mquiz{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:48px 36px;text-align:center;max-width:740px;margin:0 auto;box-shadow:0 24px 60px rgba(34,24,18,.08)}
+.mquiz h3{font-size:28px}
+.mquiz .qsub{color:var(--taupe);font-size:16.5px}
+.mquiz .qq{font-size:21px;margin:16px 0 14px}
+.mquiz .qopts{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.mquiz .qopts button{border:1px solid var(--esp);background:transparent;border-radius:0;padding:12px 26px;font-family:'Amiri';font-size:17px;cursor:pointer;color:var(--esp);transition:.3s}
+.mquiz .qopts button:hover{background:var(--esp);color:var(--ivory)}
+.mquiz .qprog{color:var(--taupe);font-size:14.5px;margin-top:14px}
+.mquiz .qres b{color:var(--gold-d);font-size:26px}
+.firefly{position:fixed;left:16px;z-index:60;color:var(--gold-d);font-size:20px;pointer-events:none;opacity:.65;animation:fl 3s ease-in-out infinite}
+@keyframes fl{50%{transform:translateY(-10px)}}
+.rail-count{font-family:'Cormorant Garamond';font-size:20px;color:var(--gold);letter-spacing:.15em;align-self:center;min-width:76px;text-align:center}
+.rail-nav{display:flex;gap:10px;justify-content:center;margin-top:18px}
+.rail-nav button{width:52px;height:52px;border-radius:50%;border:1px solid var(--gold);background:transparent;color:var(--gold);font-size:22px;cursor:pointer;transition:.3s}
+.rail-nav button:hover{background:var(--gold);color:var(--esp)}
+.lb{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;padding:24px}
+.lb.open{display:flex}
+.lb-bg{position:absolute;inset:0;background:rgba(20,14,8,.8);backdrop-filter:blur(6px)}
+.lb-card{position:relative;background:var(--card);border:1px solid var(--gold);border-radius:6px;max-width:480px;width:100%;padding:44px 38px;text-align:center;animation:lbIn .45s var(--ease)}
+@keyframes lbIn{from{opacity:0;transform:translateY(26px)}}
+.lb-card .ph{font-size:96px}
+.lb-card .no{font-family:'Cormorant Garamond';color:var(--gold-d);letter-spacing:.2em;font-size:19px}
+.lb-card h3{font-size:30px}
+.lb-card p{color:var(--taupe);font-size:17.5px;margin:6px 0 20px}
+.lb-x{position:absolute;top:12px;left:12px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:none;font-size:18px;cursor:pointer;color:var(--esp)}
+#b-prev{background:#fff;border:1px dashed var(--line);border-radius:4px;padding:12px 16px;font-size:15.5px;color:var(--taupe);margin-top:14px;min-height:58px}
+#b-prev b{color:var(--esp)}
+.nx-pitch{padding:20px 0}
+.nx-box{border:1px solid var(--gold);border-radius:6px;background:var(--card);padding:56px 40px;text-align:center;box-shadow:0 24px 60px rgba(34,24,18,.08)}
+.nx-k{display:inline-block;border:1px solid var(--gold);color:var(--gold-d);border-radius:999px;padding:6px 22px;font-size:15.5px;margin-bottom:14px}
+.nx-box h2{font-size:clamp(26px,4vw,42px)}
+.nx-lead{color:var(--taupe);max-width:640px;margin:8px auto 0;font-size:18px}
+.nx-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:26px 0;text-align:right}
+.nx-col{border-radius:6px;padding:24px;font-size:17px}
+.nx-col.bad{background:#F9ECEC;border:1px solid #E3B9B9}
+.nx-col.good{background:rgba(169,139,84,.08);border:1px solid var(--gold)}
+.nx-col h3{font-size:20px;margin-bottom:8px}
+.nx-col ul{list-style:none}
+.nx-col li{color:var(--taupe);padding:4px 0}
+.nx-note{color:var(--taupe);font-size:15px;margin-top:14px}
+@media(max-width:700px){.nx-cols{grid-template-columns:1fr}.nx-box{padding:40px 22px}}
+@media (prefers-reduced-motion:reduce){.nx-dot{animation:none}.lb-card{animation:none}.lat.big .ch{opacity:1;transform:none;transition:none}#look.curtain{clip-path:none}}
+@media(max-width:900px){.trio{grid-template-columns:1fr}.trio div{border-left:none;border-top:1px solid var(--line)}.trio div:first-child{border-top:none}.book{grid-template-columns:1fr}.revs,.chan-grid{grid-template-columns:1fr}.nav-links{display:none}}
+@media(max-width:600px){section{padding:56px 0}.piece{flex-basis:260px}}
+/* dark theme - night maison */
+html[data-theme="dark"]{--ivory:#161006;--ivory2:#241A0C;--card:#201507;--esp:#F4EEE2;--esp2:#E2D5BC;--taupe:#B7A88E;--gold:#C9A86A;--gold-d:#C9A86A;--line:#4A3A26}
+html[data-theme="dark"] header{background:rgba(22,16,6,.92)}
+html[data-theme="dark"] .look{background:#0D0906}
+html[data-theme="dark"] .nx-bar{background:#0D0906}
+html[data-theme="dark"] .btn.solid{background:var(--gold);color:#161006;border-color:var(--gold)}
+html[data-theme="dark"] .btn:hover{background:var(--gold);color:#161006;border-color:var(--gold)}
+html[data-theme="dark"] .mquiz .qopts button:hover{background:var(--gold);color:#161006}
+html[data-theme="dark"] .nx-col.good h3{color:#F4EEE2}
+html[data-theme="dark"] .nx-col.bad h3{color:#3A2B1E}
+html[data-theme="dark"] .nx-col.bad li{color:#6B5B45}
+html[data-theme="dark"] .form input,html[data-theme="dark"] .form select{background:#fff;color:#221812}
+.toggles{display:flex;gap:8px;align-items:center}
+.toggles button{background:transparent;border:1px solid var(--gold);color:var(--gold-d);border-radius:999px;padding:7px 14px;font-family:'Amiri';font-size:14px;cursor:pointer}
+.toggles button:hover{background:var(--gold);color:var(--esp)}
+</style>
+</head>
+<body>
+<div id="loader"><div style="text-align:center"><div class="lat">LA BOUTIQUE</div><div class="lline"></div><p data-en="Luxury furniture maison — Mansoura">ميزون الأثاث الفاخر — المنصورة</p></div></div>
+<div class="nx-bar" id="nxBar"><div class="wrap nx-bar-in"><span class="nx-dot"></span><span data-en="A demo made specially for <b>La Boutique</b> by <b>NEXORA</b>">عرض تجريبي صُنع مخصوص لـ <b>La Boutique</b> بواسطة <b>NEXORA</b></span><a class="nx-cta" data-nx href="#" data-en="Want one in your name?">عايز واحد باسمك؟</a><button class="nx-tour" id="nxTour" data-en="▶ Tour">▶ جولة</button><button class="nx-x" id="nxX" aria-label="إغلاق الشريط">×</button></div></div>
+<header><div class="wrap nav-in">
+  <div class="nav-links"><a href="#look" data-en="Lookbook">اللوك بوك</a><a href="#book" data-en="Private booking">الحجز الخاص</a></div>
+  <div class="brand"><span class="lat">LA BOUTIQUE</span><small data-en="Luxury furniture maison — Mansoura">ميزون الأثاث الفاخر — المنصورة</small></div>
+  <div class="nav-links"><a href="#chan" data-en="Channels">القنوات</a><a href="#faq" data-en="FAQ">أسئلة</a><span class="toggles"><button id="langBtn" type="button">EN</button><button id="themeBtn" type="button" aria-label="تبديل المظهر" data-en-aria="Toggle theme">🌙</button></span></div>
+</div></header>
+
+<section class="hero"><canvas id="petals" aria-hidden="true"></canvas><div class="cine top" id="cineTop"></div><div class="cine bot" id="cineBot"></div><div class="wrap">
+  <div class="sigil rv">✦</div>
+  <span class="off rv" data-en="The official site — Mansoura, Egypt (not Lebanon or America)">الموقع الرسمي — المنصورة، مصر (وليس لبنان أو أمريكا)</span>
+  <div class="lat big rv">La Boutique</div>
+  <h1 class="rv" data-en="Furniture to be <em>collected</em>, not bought">أثاثٌ <em>يُقتنى</em> ولا يُشترى</h1>
+  <div class="rule rv"></div>
+  <p class="lead rv" data-en="A hand-picked collection, piece by piece, a private showroom by appointment in El-Awqaf building, and a full five-star rating. No showroom crowds here — just appointments.">تشكيلة مختارة قطعةً قطعة، شوروم خاص بالحجز في عمارة الأوقاف، وتقييم خمس نجوم كاملة. هنا لا زحمة معارض — هنا موعد.</p>
+  <div class="hero-cta rv"><a class="btn solid" href="#book" data-en="Book your private visit">احجز موعدك الخاص</a><a class="btn" href="#look" data-en="Browse the lookbook">تصفح اللوك بوك</a></div>
+  <div class="meta rv"><span data-en="★ 5.0 on Google Maps">★ 5.0 على خرايط جوجل</span><span data-en="Daily 10AM – 10PM · Fridays off">يوميًا 10ص – 10م · الجمعة إجازة</span><span data-en="Delivery even outside Egypt">توصيل حتى خارج مصر</span></div>
+</div></section>
+
+<div class="bmarq" aria-hidden="true"><div class="bmarq-track"><span>LA BOUTIQUE ✦ MANSOURA ✦ PRIVATE SHOWROOM ✦ BY APPOINTMENT ✦&nbsp;</span><span>LA BOUTIQUE ✦ MANSOURA ✦ PRIVATE SHOWROOM ✦ BY APPOINTMENT ✦&nbsp;</span></div></div>
+<section style="padding-top:30px"><div class="wrap"><div class="philo rv">
+  <p data-en="“A luxurious home is not furnished from a showroom lineup, but from <b>chosen pieces</b> that resemble their owner. That is why our showroom is a private office on the fourth floor — we prepare the pieces before you arrive.”">«البيت الفاخر لا يُفرش من رصّة معرض، بل من <b>قطعٍ مختارة</b> تشبه صاحبها. لذلك شورومنا مكتبٌ خاص في الدور الرابع — نجهّز لك القطع قبل أن تصل.»</p>
+  <div class="rule"></div>
+  <p style="font-size:17px;color:var(--taupe)" data-en="— La Boutique management, Mansoura">— إدارة La Boutique، المنصورة</p>
+</div>
+<div class="trio rv">
+  <div><div class="n">I</div><h3 data-en="Curated">مختارة</h3><p data-en="Every piece passes our taste before it reaches you.">كل قطعة تمر بذوقنا قبل أن تصل إليك.</p></div>
+  <div><div class="n">II</div><h3 data-en="Private">خاصة</h3><p data-en="Your visit is yours alone — no crowds, no noise.">موعدك لك وحدك — بلا زحمة ولا إزعاج.</p></div>
+  <div><div class="n">III</div><h3 data-en="Verified">موثقة</h3><p data-en="One official channel protecting the name from lookalikes.">قناة رسمية واحدة تحفظ الاسم من التشابه.</p></div>
+</div></div></section>
+
+<section style="padding:40px 0 10px"><div class="wrap"><div class="mquiz rv" id="pieceQuiz"></div></div></section>
+
+<section id="look" class="look curtain"><canvas id="motes" aria-hidden="true"></canvas><div class="wrap">
+  <h2 class="rv shimmer" data-en="The lookbook — drag ◂">اللوك بوك — اسحب ◂</h2>
+  <div class="rule rv"></div>
+  <div class="rule rv"></div>
+  <p class="sub rv" data-en="This season's picks. Full photos and prices are sent on WhatsApp — luxury is never fully displayed in public.">مختارات الموسم. الصور الكاملة والأسعار تُرسل واتساب — الفخامة لا تُعرض كلها للعامة.</p>
+  <div class="rail-nav rv"><button id="railPrev" aria-label="السابق" data-en-aria="Previous">‹</button><span class="rail-count" id="railCount">01 / 05</span><button id="railNext" aria-label="التالي" data-en-aria="Next">›</button></div>
+</div>
+<div class="rail rv">
+  <div class="piece"><div class="ph">🛋️</div><div class="bd"><span class="no">N°1</span><h3 data-en="Reception salon">صالون الاستقبال</h3><p data-en="Imported fabrics and a long-lived frame with handmade details.">أقمشة مستوردة وهيكل معمّر بتفاصيل يدوية.</p><a href="https://wa.me/201111212250?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9%20N1" data-en="Ask for its details →">اطلب تفاصيلها ←</a></div></div>
+  <div class="piece"><div class="ph">🛏️</div><div class="bd"><span class="no">N°2</span><h3 data-en="Bedroom suite">جناح النوم</h3><p data-en="Calm earthy tones and considered lighting.">هدوء الألوان الترابية وإضاءة مدروسة.</p><a href="https://wa.me/201111212250?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9%20N2" data-en="Ask for its details →">اطلب تفاصيلها ←</a></div></div>
+  <div class="piece"><div class="ph">🍽️</div><div class="bd"><span class="no">N°3</span><h3 data-en="Hospitality dining">مائدة الضيافة</h3><p data-en="Receive your guests in a manner worthy of them — and you.">تستقبل ضيوفك بما يليق بهم وبك.</p><a href="https://wa.me/201111212250?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9%20N3" data-en="Ask for its details →">اطلب تفاصيلها ←</a></div></div>
+  <div class="piece"><div class="ph">🪞</div><div class="bd"><span class="no">N°4</span><h3 data-en="Mirror corner">ركن المرآة</h3><p data-en="A console and mirror with a light brass frame.">كونسول ومرآة بإطار نحاسي خفيف.</p><a href="https://wa.me/201111212250?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9%20N4" data-en="Ask for its details →">اطلب تفاصيلها ←</a></div></div>
+  <div class="piece"><div class="ph">📚</div><div class="bd"><span class="no">N°5</span><h3 data-en="Wall library">مكتبة الجدار</h3><p data-en="Dark wood and lit shelves for your books and objets.">خشب غامق وأرفف مضيئة لكتبك وتحفك.</p><a href="https://wa.me/201111212250?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9%20N5" data-en="Ask for its details →">اطلب تفاصيلها ←</a></div></div>
+</div>
+<p class="hint" data-en="◂ Drag sideways to see the picks">◂ اسحب أفقيًا لرؤية المختارات</p>
+</section>
+
+<section id="book"><div class="wrap book">
+  <div class="rv">
+    <h2 data-en="Your private visit —<br>book before you come">موعدك الخاص —<br>احجز قبل أن تأتي</h2>
+    <div class="rule" style="margin:18px 0"></div>
+    <p data-en="Our showroom is a private office (4th floor, office 19 — El-Awqaf building, Old Bus St.). Write your name and time, and a ready WhatsApp message reaches you — we prepare the pieces and their hospitality before you arrive.">شورومنا مكتبٌ خاص (الدور 4، مكتب 19 — عمارة الأوقاف، شارع الأتوبيس القديم). اكتب اسمك وموعدك، وستصلك رسالة واتساب جاهزة — نجهّز لك القطع وضيافتها قبل وصولك.</p>
+    <p style="margin-top:14px" data-en="Our official numbers: <bdi><b>01111212250</b> · <b>01111212230</b> · <b>01114262724</b> · <b>01013660442</b></bdi>">أرقامنا الرسمية: <bdi><b>01111212250</b> · <b>01111212230</b> · <b>01114262724</b> · <b>01013660442</b></bdi></p>
+  </div>
+  <div class="form rv"><div class="seal" aria-hidden="true">LB</div>
+    <h3 data-en="Visit card">بطاقة الموعد</h3>
+    <div class="rule"></div>
+    <label for="b-name" data-en="Your kind name">الاسم الكريم</label><input id="b-name" type="text" placeholder="مثال: أ. منى الشريف" data-en-ph="e.g. Ms. Mona El-Sherif">
+    <label for="b-day" data-en="Day">اليوم</label><select id="b-day"><option data-en="Saturday">السبت</option><option data-en="Sunday">الأحد</option><option data-en="Monday">الاثنين</option><option data-en="Tuesday">الثلاثاء</option><option data-en="Wednesday">الأربعاء</option><option data-en="Thursday">الخميس</option></select>
+    <label for="b-time" data-en="Slot">الفترة</label><select id="b-time"><option data-en="Morning 10 – 2">صباحًا 10 – 2</option><option data-en="Afternoon 2 – 6">مساءً 2 – 6</option><option data-en="Evening 6 – 10">مساءً 6 – 10</option></select>
+    <a class="btn solid" id="b-send" href="https://wa.me/201111212250" data-en="Confirm the visit on WhatsApp ✦">أكّد الموعد واتساب ✦</a>
+    <p id="b-prev">معاينة رسالتك: <b>…</b></p>
+    <p style="font-size:14.5px;color:var(--taupe);text-align:center;margin-top:10px" data-en="Fridays the maison rests.">الجمعة إجازة الميزون.</p>
+  </div>
+</div></section>
+
+<section id="chan" style="padding-top:20px"><div class="wrap">  <div class="chan rv">
+  <h2 data-en="A global name… with one official channel">اسمٌ عالمي… وقناةٌ واحدة رسمية</h2>
+  <div class="rule"></div>
+  <p style="color:var(--taupe)" data-en="Searching La Boutique shows Lebanon and America — this page officially books the Mansoura name.">البحث عن La Boutique يُظهر نتائج لبنان وأمريكا — هذه الصفحة تحجز اسم المنصورة رسميًا.</p>
+  <div class="chan-grid">
+    <div class="ok"><h3 data-en="✓ Our channels — Mansoura Egypt">✓ قنواتنا — المنصورة مصر</h3><ul class="tick"><li data-en="This site + WhatsApp <bdi><b>01111212250</b></bdi>">هذا الموقع + واتساب <bdi><b>01111212250</b></bdi></li><li>إنستجرام <bdi>laboutiquefurniture@</bdi></li><li data-en="Main Facebook page (8.6K)">صفحة فيسبوك الأساسية (8.6K)</li><li data-en="Address: El-Awqaf building, 4th floor, office 19">العنوان: عمارة الأوقاف، دور 4، مكتب 19</li></ul></div>
+    <div class="no"><h3 data-en="✘ Not us">✘ ليس تبعنا</h3><ul class="tick"><li>La Boutique لبنان / أمريكا / أيسلندا</li><li data-en="Any same-name page outside Egypt">أي صفحة بنفس الاسم خارج مصر</li><li data-en="Any number other than those listed here">أي رقم غير المسجل هنا</li></ul></div>
+  </div>
+</div>
+<div class="revs">
+  <div class="rev rv"><div class="st">★★★★★</div><p data-en="Truly refined taste — the pieces are unlike any showroom I saw in Mansoura.">ذوقٌ راقٍ فعلًا — القطع مختلفة عن أي معرض رأيته في المنصورة.</p><b data-en="— Private showroom customer">— عميلة الشوروم الخاص</b></div>
+  <div class="rev rv"><div class="st">★★★★★</div><p data-en="The private visit is a wonderful idea — I felt the pieces were chosen for me.">الموعد الخاص فكرة رائعة — شعرت أن القطع مختارة لي.</p><b data-en="— Out-of-town delivery customer">— عميل التوصيل الخارجي</b></div>
+  <div class="rev rv"><div class="st">★★★★★</div><p data-en="Packing and delivery with care worthy of the price. An experience worth it.">التغليف والتوصيل بعناية تليق بالسعر. تجربة تستحق.</p><b data-en="— Google Maps review">— تقييم خرايط جوجل</b></div>
+</div>
+<div class="faq" id="faq">
+  <details class="rv" open><summary data-en="Which La Boutique are you?">أنتم أي La Boutique؟</summary><p data-en="We are <b>La Boutique Mansoura — Egypt</b>. Any result about Lebanon, America or Iceland is another brand with the same name.">نحن <b>La Boutique المنصورة — مصر</b>. أي نتيجة عن لبنان أو أمريكا أو أيسلندا فعلامات أخرى بالاسم نفسه.</p></details>
+  <details class="rv"><summary data-en="Why book before visiting?">لماذا الحجز قبل الزيارة؟</summary><p data-en="Because the showroom is a private office, not a street store — and booking guarantees the pieces you want are ready, with the visit all yours.">لأن الشوروم مكتبٌ خاص لا معرض شارع — والحجز يضمن أن القطع التي تريدها جاهزة، وموعدك لك وحدك.</p></details>
+  <details class="rv"><summary data-en="Do you deliver outside Egypt?">هل توصّلون خارج مصر؟</summary><p data-en="For selected pieces, yes — send the piece and country on WhatsApp and we calculate shipping and packing.">لقطع مختارة نعم — أرسل القطعة والبلد واتساب ونحسب الشحن والتغليف.</p></details>
+</div></div></section>
+
+<section class="nx-pitch"><div class="wrap"><div class="nx-box rv">
+  <p class="nx-k">✦ رسالة خاصة من NEXORA إلى إدارة La Boutique</p>
+  <h2 data-en="Your name is so beautiful the world steals it… so where is your website?">اسمكم جميل لدرجة أن العالم يسرقه… فأين موقعكم؟</h2>
+  <p class="nx-lead" data-en="This page is a <b>free sample</b> — a maison worthy of five stars: a private lookbook, organized visit booking, and an official channel protecting the Mansoura name from Lebanese and American results. Try pressing any piece yourself.">هذه الصفحة <b>عينة مجانية</b> — ميزون يليق بخمس نجوم: لوك بوك خاص، حجز مواعيد منظم، وقناة رسمية تحفظ اسم المنصورة من نتائج لبنان وأمريكا. جرّب بنفسك ضغطة على أي قطعة.</p>
+  <div class="nx-cols">
+    <div class="nx-col bad"><h3 data-en="The current situation">الوضع الحالي</h3><ul><li data-en="Two feuding Facebook pages and scattered accounts">صفحتا فيسبوك متنازعتان وحسابات مبعثرة</li><li data-en="The name stolen in global search results">الاسم مستولى عليه في نتائج البحث العالمية</li><li data-en="An elegant private showroom… with no booking system and no private catalog">شوروم خاص راقٍ… بلا نظام حجز ولا كتالوج خاص</li></ul></div>
+    <div class="nx-col good"><h3 data-en="What this maison gives you">الميزون ده بيقدملك</h3><ul><li data-en="An official website booking the name in search for Mansoura">موقع رسمي يحجز الاسم في البحث لصالح المنصورة</li><li data-en="A horizontal lookbook and booking fit for luxury">لوك بوك أفقي ونظام حجز يليق بالفئة الفاخرة</li><li data-en="Unifying the channels under one elegant identity">توحيد القنوات تحت هوية واحدة أنيقة</li></ul></div>
+  </div>
+  <a class="btn solid" data-nx href="#" data-en="May the maison carry your name — message us on WhatsApp">ليكن الميزون باسمكم — راسلنا واتساب</a>
+  <p class="nx-note" data-en="NEXORA — full build with your real pieces within 5 working days.<br>WhatsApp: <bdi class=&quot;num&quot;>01062264302</bdi> · All our links: <a href=&quot;https://beacons.ai/nexora.01.eg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;text-decoration:underline;font-weight:700&quot;>beacons.ai/nexora.01.eg</a>">NEXORA — التنفيذ الكامل بصور قطعكم الحقيقية خلال 5 أيام عمل.<br>واتساب: <bdi class="num">01062264302</bdi> · كل لينكاتنا: <a href="https://beacons.ai/nexora.01.eg" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:700">beacons.ai/nexora.01.eg</a></p>
+</div></div></section>
+
+<section class="final"><div class="wrap rv">
+  <div class="fin">F I N</div>
+  <div class="lat">La Boutique</div>
+  <h2 data-en="Your chosen piece awaits you">قطعتك المختارة بانتظارك</h2>
+  <div class="rule"></div>
+  <a class="btn solid" href="https://wa.me/201111212250?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D9%83%D8%AA%D8%A7%D9%84%D9%88%D8%AC%20La%20Boutique%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5" data-en="Order the private catalog ✦">اطلب الكتالوج الخاص ✦</a>
+</div></section>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-labelledby="lbName">
+  <div class="lb-bg" id="lbBg"></div>
+  <div class="lb-card"><button class="lb-x" id="lbX" aria-label="إغلاق" data-en-aria="Close">×</button><div class="ph" id="lbPh">🛋️</div><div class="no" id="lbNo">N°1</div><h3 id="lbName">صالون الاستقبال</h3><p id="lbDesc"></p><a class="btn solid" id="lbWa" href="https://wa.me/201111212250" style="width:100%" data-en="Ask for this piece's details ✦">اطلب تفاصيل هذه القطعة ✦</a></div>
+</div>
+<footer><div class="wrap">
+  <div><span class="lat" style="letter-spacing:.2em">LA BOUTIQUE</span> <span data-en="· Mansoura Egypt · El-Awqaf building, 4th floor, office 19 · © 2026">· المنصورة مصر · عمارة الأوقاف دور 4 مكتب 19 · © 2026</span></div>
+  <div><a href="https://www.instagram.com/laboutiquefurniture/" target="_blank" rel="noopener" data-en="Instagram">إنستجرام</a> · <a href="https://www.facebook.com/laboutiquefurniture/" target="_blank" rel="noopener" data-en="Facebook">فيسبوك</a></div>
+</div></footer>
+<a class="wa" href="https://wa.me/201111212250" aria-label="واتساب لابوتيك" data-en-aria="La Boutique WhatsApp">✦</a>
+<script>
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.1});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+var bn=document.getElementById('b-name'),bd=document.getElementById('b-day'),bt=document.getElementById('b-time'),bs=document.getElementById('b-send');
+function upd(){var EN=(window.__NX_LANG==='en'),n=bn.value.trim()||(EN?'Kind guest':'زائر كريم');
+  bs.href='https://wa.me/201111212250?text='+encodeURIComponent((EN?'Private visit booking: ':'حجز موعد خاص: ')+n+' / '+bd.value+' / '+bt.value);}
+[bn,bd,bt].forEach(function(el){el.addEventListener('input',upd)});upd();
+/* طبقة ديمو NEXORA + لايت بوك */
+var NEXORA_WA='201062264302';
+(function(){
+  var msg=window.__NX_LANG==='en'?'I saw the La Boutique trial page — I want a maison in our name':'شفت صفحة La Boutique التجريبية — عايز ميزون باسمنا';
+  document.querySelectorAll('[data-nx]').forEach(function(a){a.href='https://wa.me/'+NEXORA_WA+'?text='+encodeURIComponent(msg);a.target='_blank';a.rel='noopener'});
+  document.getElementById('nxX').addEventListener('click',function(){document.getElementById('nxBar').style.display='none'});
+  /* معاينة رسالة الحجز */
+  var pv=document.getElementById('b-prev');
+  var oldUpd=upd;
+  upd=function(){oldUpd();var EN=(window.__NX_LANG==='en'),n=bn.value.trim()||(EN?'Kind guest':'زائر كريم');pv.innerHTML=(EN?'Your message preview: ':'معاينة رسالتك: ')+'<b>'+n+' / '+bd.value+' / '+bt.value+'</b>'};
+  [bn,bd,bt].forEach(function(el){el.addEventListener('input',upd)});upd();
+  /* أسهم اللوك بوك */
+  var rail=document.querySelector('.rail');
+  document.getElementById('railPrev').addEventListener('click',function(){rail.scrollBy({left:340,behavior:'smooth'})});
+  document.getElementById('railNext').addEventListener('click',function(){rail.scrollBy({left:-340,behavior:'smooth'})});
+  /* لايت بوك */
+  var lb=document.getElementById('lb'),lastFocus=null;
+  function openLb(card){
+    lastFocus=document.activeElement;
+    document.getElementById('lbPh').textContent=card.querySelector('.ph').textContent;
+    document.getElementById('lbNo').textContent=card.querySelector('.no').textContent;
+    document.getElementById('lbName').textContent=card.querySelector('h3').textContent;
+    document.getElementById('lbDesc').textContent=card.querySelector('p').textContent;
+    document.getElementById('lbWa').href=card.querySelector('a').href;
+    lb.classList.add('open');document.body.style.overflow='hidden';
+    document.getElementById('lbX').focus();
+  }
+  function closeLb(){lb.classList.remove('open');document.body.style.overflow='';if(lastFocus)lastFocus.focus()}
+  document.querySelectorAll('.piece').forEach(function(c){c.style.cursor='pointer';c.addEventListener('click',function(e){if(e.target.tagName!=='A')openLb(c)})});
+  document.getElementById('lbX').addEventListener('click',closeLb);
+  document.getElementById('lbBg').addEventListener('click',closeLb);
+  addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('open'))closeLb()});
+  /* حركات CX */
+  var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  /* توست */
+  var toast=document.createElement('div');toast.className='nx-toast';document.body.appendChild(toast);var tt;
+  function showToast(m){toast.textContent=m;toast.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('show')},2600)}
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function(a){a.addEventListener('click',function(){showToast(window.__NX_LANG==='en'?'Opening WhatsApp — your visit is booked once you send ✦':'اتفتح واتساب — موعدك محجوز أول ما تبعت ✦')})});
+  /* تفكيك العنوان */
+  var big=document.querySelector('.hero .lat.big');
+  if(big&&!rm){var txt=big.textContent;big.setAttribute('aria-label',txt);big.textContent='';Array.prototype.forEach.call(txt,function(ch,i){var s=document.createElement('span');s.className='ch';s.textContent=(ch===' '?'\u00a0':ch);s.style.transitionDelay=(i*45)+'ms';big.appendChild(s)});requestAnimationFrame(function(){requestAnimationFrame(function(){big.classList.add('split-in')})})}
+  /* ستارة اللوك بوك */
+  var look=document.getElementById('look');
+  if(look){if(rm)look.classList.add('drawn');else new IntersectionObserver(function(es,o){es.forEach(function(e){if(e.isIntersecting){look.classList.add('drawn');o.disconnect()}})},{threshold:.1}).observe(look)}
+  /* parallax اللوك بوك */
+  var rail2=document.querySelector('.rail');
+  if(rail2&&!rm){rail2.querySelectorAll('.piece .ph').forEach(function(ph){if(!ph.querySelector('.phe')){var s=document.createElement('span');s.className='phe';s.textContent=ph.textContent;ph.textContent='';ph.appendChild(s)}});
+  var phs=rail2.querySelectorAll('.piece .phe'),ticking=false;
+  function par(){ticking=false;var rr=rail2.getBoundingClientRect(),cx=rr.left+rr.width/2;phs.forEach(function(ph){var r=ph.getBoundingClientRect(),off=(r.left+r.width/2-cx)/rr.width;ph.style.transform='translateX('+(-off*36).toFixed(1)+'px)'})}
+  rail2.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(par)}},{passive:true});par()}
+  /* توهج المؤشر */
+  if(matchMedia('(pointer:fine)').matches&&!rm){var gl=document.createElement('div');gl.className='cursor-glow';document.body.appendChild(gl);var gx=innerWidth/2,gy=200,tx=gx,ty=gy;addEventListener('mousemove',function(e){tx=e.clientX;ty=e.clientY},{passive:true});(function loop(){gx+=(tx-gx)*.08;gy+=(ty-gy)*.08;gl.style.transform='translate('+(gx-160)+'px,'+(gy-160)+'px)';requestAnimationFrame(loop)})()}
+  /* تحقق الحجز */
+  var form=document.querySelector('.form');
+  document.getElementById('b-send').addEventListener('click',function(e){if(!bn.value.trim()){e.preventDefault();showToast(window.__NX_LANG==='en'?'Write your name first so we prepare your visit ✦':'اكتب اسمك الأول عشان نجهز موعدك ✦');if(!rm){form.classList.remove('shake');void form.offsetWidth;form.classList.add('shake')}bn.focus()}});
+  /* كويز القطعة */
+  (function(){var m=document.getElementById('pieceQuiz');if(!m)return;
+    var QS_AR=[
+     {t:'مزاج بيتك؟',o:[['هادئ ورايق','N2'],['فخم ويلمع','N1'],['دافئ وعائلي','N3']]},
+     {t:'أهم ركن عندك؟',o:[['الاستقبال','N1'],['النوم','N2'],['السفرة','N3'],['ركن مميز','N4']]},
+     {t:'تحب التفاصيل؟',o:[['ذهبية ونحاسية','N4'],['خشبية ثقيلة','N5'],['ناعمة وبسيطة','N2']]}];
+    var QS_EN=[
+     {t:'Your home mood?',o:[['Calm and serene','N2'],['Shiny luxury','N1'],['Warm and family','N3']]},
+     {t:'Your most important corner?',o:[['Reception','N1'],['Bedroom','N2'],['Dining','N3'],['Feature corner','N4']]},
+     {t:'What details do you love?',o:[['Golden and brassy','N4'],['Heavy wooden','N5'],['Soft and simple','N2']]}];
+    var QS=QS_AR;
+    var tags={},step=0;
+    m.innerHTML='<h3>'+(window.__NX_LANG==='en'?'Which piece looks like you? ✦':'أي قطعة تشبهك؟ ✦')+'</h3><p class="qsub">'+(window.__NX_LANG==='en'?'Three questions — and we open your piece in the lookbook':'ثلاثة أسئلة — ونفتح لك قطعتك في اللوك بوك')+'</p><div class="qbody"></div><div class="qprog"></div>';
+    var body=m.querySelector('.qbody'),prog=m.querySelector('.qprog');
+    function render(){var QZ=(window.__NX_LANG==='en'?QS_EN:QS_AR),q=QZ[step];prog.textContent=(step+1)+' / '+QZ.length;body.innerHTML='<p class="qq">'+q.t+'</p><div class="qopts"></div>';var bx=body.querySelector('.qopts');
+      q.o.forEach(function(o){var b=document.createElement('button');b.type='button';b.textContent=o[0];b.addEventListener('click',function(){tags[o[1]]=(tags[o[1]]||0)+1;step++;if(step<QZ.length)render();else finish()});bx.appendChild(b)})}
+    function finish(){var best='N1',bn2=-1,EN=(window.__NX_LANG==='en');for(var k in tags)if(tags[k]>bn2){bn2=tags[k];best=k}
+      prog.textContent='✓';
+      var cards=document.querySelectorAll('.piece'),idx=0;
+      cards.forEach(function(c,i){if(c.querySelector('.no').textContent.indexOf(best)>-1)idx=i});
+      var nm=cards[idx].querySelector('h3').textContent;
+      body.innerHTML='<p class="qq">'+(EN?'Your piece is…':'قطعتك هي…')+'</p><b style="font-size:26px;color:var(--gold-d)">'+nm+'</b><div class="qopts" style="margin-top:14px"><button type="button" id="qOpen">'+(EN?'Open it in the lookbook ✦':'افتحها في اللوك بوك ✦')+'</button></div>';
+      document.getElementById('qOpen').addEventListener('click',function(){document.getElementById('look').scrollIntoView({behavior:rm?'auto':'smooth'});setTimeout(function(){cards[idx].click()},rm?50:700)});
+      showToast((EN?'We picked for you ':'اخترنا لك ')+nm+' ✦')}
+    render();window.__boutiqueQuiz=function(){tags={};step=0;
+    m.innerHTML='<h3>'+(window.__NX_LANG==='en'?'Which piece looks like you? ✦':'أي قطعة تشبهك؟ ✦')+'</h3><p class="qsub">'+(window.__NX_LANG==='en'?'Three questions — and we open your piece in the lookbook':'ثلاثة أسئلة — ونفتح لك قطعتك في اللوك بوك')+'</p><div class="qbody"></div><div class="qprog"></div>';
+    body=m.querySelector('.qbody');prog=m.querySelector('.qprog');render()}})();
+  /* فراشة السكرول */
+  if(!rm){var fl=document.createElement('div');fl.className='firefly';fl.textContent='✦';fl.style.top='20%';document.body.appendChild(fl);var ft=false;
+    addEventListener('scroll',function(){if(ft)return;ft=true;requestAnimationFrame(function(){ft=false;var h=document.documentElement,p=h.scrollTop/((h.scrollHeight-h.clientHeight)||1);fl.style.top=(12+p*72)+'%';fl.style.opacity=(.35+p*.4).toFixed(2)})},{passive:true})}
+  /* ذرات اللوك بوك */
+  (function(){var mc=document.getElementById('motes'),look=document.getElementById('look');if(!mc||!look||rm)return;
+    var ctx=mc.getContext('2d'),W=0,H=0,ps=[],run=true;
+    function size(){var r=look.getBoundingClientRect();W=mc.width=Math.max(1,r.width);H=mc.height=Math.max(1,r.height)}
+    function init(){var n=W<600?8:16;ps=[];for(var i=0;i<n;i++)ps.push({x:Math.random()*W,y:Math.random()*H,r:.8+Math.random()*1.8,vy:.1+Math.random()*.28,ph:Math.random()*6})}
+    function tick(){if(run){ctx.clearRect(0,0,W,H);for(var i=0;i<ps.length;i++){var p=ps[i];p.y-=p.vy;p.ph+=.01;if(p.y<-6){p.y=H+6;p.x=Math.random()*W}ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,7);ctx.fillStyle='rgba(169,139,84,'+(.14+.14*Math.sin(p.ph)).toFixed(2)+')';ctx.fill()}requestAnimationFrame(tick)}}
+    size();init();requestAnimationFrame(tick);
+    addEventListener('resize',function(){size();init()});
+    new IntersectionObserver(function(es){run=es[0].isIntersecting;if(run)requestAnimationFrame(tick)}).observe(look)})();
+  /* عدّاد اللوك بوك */
+  (function(){var rail3=document.querySelector('.rail'),cnt=document.getElementById('railCount');if(!rail3||!cnt)return;
+    var cards=rail3.querySelectorAll('.piece');
+    function upd(){var stepw=cards[0].offsetWidth+20,i=Math.round(Math.abs(rail3.scrollLeft)/stepw);i=Math.max(0,Math.min(cards.length-1,i));cnt.textContent=('0'+(i+1)).slice(-2)+' / 0'+cards.length}
+    rail3.addEventListener('scroll',function(){requestAnimationFrame(upd)},{passive:true});upd()})();
+  /* الجولة */
+  document.getElementById('nxTour').addEventListener('click',function(){
+    var stops=[
+     {sel:'.rail',msg:'1/4 — اللوك بوك: اسحب… كل قطعة تفتح تفاصيلها.',msge:'1/4 — The lookbook: drag… every piece opens its details.'},
+     {sel:'.form',msg:'2/4 — بطاقة الموعد: الاسم يتحول لرسالة واتساب.',msge:'2/4 — The visit card: the name turns into a WhatsApp message.'},
+     {sel:'.chan',msg:'3/4 — القناة الرسمية: الاسم محجوز للمنصورة.',msge:'3/4 — The official channel: the name is booked for Mansoura.'},
+     {sel:'.nx-box',msg:'4/4 — وده الـpitch بتاعكم. عايزينه باسمكم؟ واتساب ✦',msge:'4/4 — And this is your pitch. Want it in your name? WhatsApp ✦'}];
+    var i=0;clearTimeout(window.__tourT);
+    (function step(){if(i>=stops.length){showToast(window.__NX_LANG==='en'?'Tour done — awaiting your visit ✦':'خلصت الجولة — بانتظار موعدكم ✦');return}
+      var s=stops[i++],el=document.querySelector(s.sel);
+      if(el){el.scrollIntoView({behavior:rm?'auto':'smooth',block:'center'});el.classList.add('tour-glow');setTimeout(function(){el.classList.remove('tour-glow')},2300)}
+      showToast(window.__NX_LANG==='en'?(s.msge||s.msg):s.msg);window.__tourT=setTimeout(step,2700)})()});
+})();
+</script>
+<script>
+/* العرض الخاص */
+(function(){
+var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+var loader=document.getElementById('loader');
+function lift(){if(!loader||loader.classList.contains('lift'))return;loader.classList.add('lift');setTimeout(function(){if(loader&&loader.parentNode)loader.parentNode.removeChild(loader);loader=null},900)}
+if(rm){lift()}else{addEventListener('load',function(){setTimeout(lift,900)});setTimeout(lift,2200)}
+if(rm)return;
+var hero=document.querySelector('.hero'),ct=document.getElementById('cineTop'),cb=document.getElementById('cineBot'),tick=false;
+function cine(){tick=false;if(!hero)return;var r=hero.getBoundingClientRect(),p=Math.max(0,Math.min(1,-r.top/((r.height)||1)));var s=(1-p*.93).toFixed(3);if(ct)ct.style.transform='scaleY('+s+')';if(cb)cb.style.transform='scaleY('+s+')'}
+addEventListener('scroll',function(){if(tick)return;tick=true;requestAnimationFrame(cine)},{passive:true});cine();
+})();
+</script>
+<script>
+/* الجولة البصرية: بتلات + خروج الهيرو + ripple */
+(function(){
+var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(rm)return;
+var hero=document.querySelector('.hero'),wrap=document.querySelector('.hero .wrap');
+/* بتلات */
+var cv=document.getElementById('petals');
+if(cv&&hero){var ctx=cv.getContext('2d'),W=0,H=0,ps=[],run=true;
+function size(){var r=hero.getBoundingClientRect();W=cv.width=Math.max(1,r.width);H=cv.height=Math.max(1,r.height)}
+function init(){var n=W<600?12:24;ps=[];for(var i=0;i<n;i++)ps.push({x:Math.random()*W,y:Math.random()*H,a:2+Math.random()*3.5,b:1.2+Math.random()*2,vy:.18+Math.random()*.4,ph:Math.random()*6,sw:.4+Math.random()*.8,al:.12+Math.random()*.22})}
+function tick(t){if(run){ctx.clearRect(0,0,W,H);for(var i=0;i<ps.length;i++){var p=ps[i];p.y+=p.vy;p.ph+=.008;if(p.y>H+8){p.y=-8;p.x=Math.random()*W}var sx=p.x+Math.sin(p.ph)*22*p.sw;ctx.save();ctx.translate(sx,p.y);ctx.rotate(Math.sin(p.ph)*.7);ctx.beginPath();ctx.ellipse(0,0,p.a,p.b,0,0,7);ctx.fillStyle='rgba(169,139,84,'+p.al.toFixed(2)+')';ctx.fill();ctx.restore()}requestAnimationFrame(tick)}}
+size();init();requestAnimationFrame(tick);
+addEventListener('resize',function(){size();init()});
+new IntersectionObserver(function(es){run=es[0].isIntersecting;if(run)requestAnimationFrame(tick)}).observe(hero);}
+/* خروج الهيرو */
+var tick2=false;
+function journey(){tick2=false;if(!hero||!wrap)return;var r=hero.getBoundingClientRect(),p=Math.max(0,Math.min(1,-r.top/((r.height)||1)));wrap.style.transform='translateY('+(p*70).toFixed(1)+'px) scale('+(1-p*.04).toFixed(3)+')';wrap.style.opacity=Math.max(0,1-p*1.4).toFixed(2)}
+addEventListener('scroll',function(){if(tick2)return;tick2=true;requestAnimationFrame(journey)},{passive:true});journey();
+/* ripple */
+document.querySelectorAll('.btn').forEach(function(b){b.addEventListener('click',function(e){try{var r=b.getBoundingClientRect(),sz=Math.max(r.width,r.height),s=document.createElement('span');s.className='rip';s.style.width=s.style.height=sz+'px';s.style.left=(e.clientX-r.left-sz/2)+'px';s.style.top=(e.clientY-r.top-sz/2)+'px';b.appendChild(s);setTimeout(function(){s.remove()},650)}catch(err){}})});
+})();
+</script>
+<script>
+/* الثيم واللغة */
+(function(){
+var root=document.documentElement,DEF='light',SITE='boutique';
+var tb=document.getElementById('themeBtn'),lb=document.getElementById('langBtn');
+function applyTheme(t){if(t===DEF)root.removeAttribute('data-theme');else root.setAttribute('data-theme',t);if(tb)tb.textContent=(t==='dark')?'☀️':'🌙';try{localStorage.setItem('nx-theme-'+SITE,t)}catch(e){}}
+var th=DEF;try{th=localStorage.getItem('nx-theme-'+SITE)||DEF}catch(e){}
+if(tb)tb.addEventListener('click',function(){var cur=root.getAttribute('data-theme')||DEF;applyTheme(cur==='dark'?'light':'dark')});
+applyTheme(th);
+var LANG='ar';
+try{LANG=localStorage.getItem('nx-lang-'+SITE)||'ar'}catch(e){}
+function setLang(l){LANG=l;window.__NX_LANG=l;var en=(l==='en');
+document.querySelectorAll('[data-en]').forEach(function(el){if(!el.dataset.ar)el.dataset.ar=el.innerHTML;el.innerHTML=en?el.dataset.en:el.dataset.ar});
+document.querySelectorAll('[data-en-ph]').forEach(function(el){if(!el.dataset.arPh)el.dataset.arPh=el.placeholder;el.placeholder=en?el.dataset.enPh:el.dataset.arPh});
+document.querySelectorAll('[data-en-aria]').forEach(function(el){if(!el.dataset.arAria)el.dataset.arAria=el.getAttribute('aria-label');if(en)el.setAttribute('aria-label',el.dataset.enAria);else if(el.dataset.arAria)el.setAttribute('aria-label',el.dataset.arAria)});
+root.lang=l;root.dir=en?'ltr':'rtl';
+if(lb)lb.textContent=en?'عربي':'EN';
+try{localStorage.setItem('nx-lang-'+SITE,l)}catch(e){}
+if(window.__langHook){try{window.__langHook(en)}catch(e){}}}
+if(lb)lb.addEventListener('click',function(){setLang(LANG==='ar'?'en':'ar')});
+window.__langHook=function(en){
+var nxm=en?'I saw the La Boutique trial page — I want a maison in our name':'شفت صفحة La Boutique التجريبية — عايز ميزون باسمنا';
+document.querySelectorAll('[data-nx]').forEach(function(a){a.href='https://wa.me/201062264302?text='+encodeURIComponent(nxm)});
+if(typeof upd==='function')upd();
+if(window.__boutiqueQuiz)window.__boutiqueQuiz();
+};
+setLang(LANG);
+window.__setLang=setLang;
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-en="HB Luxury Furniture — New Cairo &amp; Madinaty | Book a showroom visit">HB Luxury Furniture — التجمع الخامس ومدينتي | احجز زيارة الصالة</title>
+<meta name="description" content="HB Luxury Furniture — أثاث فاخر بصالتين في التجمع الخامس ومدينتي. تصفّح المجموعات، شوف عرض مدينتي حتى 25%، واحجز زيارتك أو كلّمنا واتساب.">
+<meta name="theme-color" content="#F5F5F7">
+<meta property="og:title" content="HB Luxury Furniture — صالتان: التجمع الخامس ومدينتي">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Playfair+Display:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FurnitureStore","name":"HB Luxury Furniture","description":"Luxury furniture showrooms in New Cairo and Madinaty","address":{"@type":"PostalAddress","addressLocality":"New Cairo","addressRegion":"Cairo","addressCountry":"EG"},"telephone":"+201555606750","sameAs":["https://www.instagram.com/hb.luxuryfurniture/","https://www.tiktok.com/@hb.luxury.eg","https://www.facebook.com/p/HB-Luxury-100091704992857/"]}</script>
+<style>
+:root{
+  --bg:#F5F5F7; --soft:#FFFFFF; --card:#FFFFFF;
+  --tx:#332F34; --grey:#6E6A72; --faint:#9A96A0;
+  --gold:#C5A059; --gold-d:#A9853D; --mauve:#A59EAA; --ink:#2A272B;
+  --line:rgba(197,160,89,.34); --ease:cubic-bezier(.22,1,.36,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font-family:'IBM Plex Sans Arabic',sans-serif;line-height:1.9;overflow-x:hidden}
+h1,h2,h3{font-family:'Amiri','Playfair Display',serif;font-weight:700;line-height:1.45;letter-spacing:.2px}
+.num{font-family:'Playfair Display',serif;direction:ltr;display:inline-block;font-weight:600}
+.wrap{max-width:1200px;margin:0 auto;padding:0 28px;position:relative;z-index:2}
+section{padding:86px 0;position:relative}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.mq-track{animation:none!important}#grain{display:none}.rip{display:none}}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+::selection{background:var(--gold);color:#fff}
+::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:#E7E7EA}::-webkit-scrollbar-thumb{background:var(--gold);border-radius:6px}
+/* loader */
+#loader{position:fixed;inset:0;z-index:200;background:var(--bg);display:grid;place-items:center;transition:opacity .7s ease,visibility .7s}
+#loader.lift{opacity:0;visibility:hidden}
+#loader .mono{font-family:'Playfair Display',serif;font-size:56px;color:var(--tx);letter-spacing:6px}
+#loader .bar{width:120px;height:2px;background:rgba(51,47,52,.12);margin:14px auto 0;overflow:hidden;border-radius:2px}
+#loader .bar i{display:block;height:100%;width:40%;background:var(--gold);animation:sweep 1.3s ease-in-out infinite}
+@keyframes sweep{0%{transform:translateX(-120%)}100%{transform:translateX(320%)}}
+#loader p{color:var(--grey);font-size:13px;margin-top:10px;letter-spacing:2px;text-align:center}
+/* demo bar */
+.nx-bar{background:#2A272B;border-bottom:2px solid var(--gold);position:relative;z-index:90}
+.nx-bar-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap;font-size:14px;color:#EDEAF0}
+.nx-dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.35}}
+.nx-cta{background:var(--gold);color:#2A272B;font-weight:800;border-radius:6px;padding:6px 18px;font-size:13.5px;margin-right:auto}
+.nx-tour{background:none;border:1px solid var(--gold);color:var(--gold);border-radius:6px;padding:6px 14px;font-size:13px;cursor:pointer;font-family:'IBM Plex Sans Arabic';font-weight:700}
+.nx-x{background:none;border:1px solid #56515A;color:#B7B2BC;border-radius:6px;width:30px;height:30px;cursor:pointer;font-size:16px}
+.tour-glow{outline:2px solid var(--gold)!important;outline-offset:9px;border-radius:8px}
+/* topbar + nav */
+.topbar{background:#EDEDF0;border-bottom:1px solid rgba(51,47,52,.08);font-size:12.5px;color:var(--grey);position:relative;z-index:5;letter-spacing:.4px}
+.topbar .wrap{display:flex;justify-content:space-between;gap:10px;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+nav{position:sticky;top:0;z-index:50;background:rgba(245,245,247,.9);backdrop-filter:blur(12px);border-bottom:1px solid rgba(51,47,52,.1)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:84px;gap:10px}
+.logo{font-family:'Playfair Display',serif;font-weight:700;font-size:25px;letter-spacing:1px}.logo em{color:var(--gold);font-style:normal}
+.logo small{display:block;font-family:'IBM Plex Sans Arabic';font-size:10.5px;color:var(--grey);font-weight:400;letter-spacing:2px}
+.nav-links{display:flex;gap:26px;color:var(--grey);font-size:14.5px;font-weight:500}
+.nav-links a{position:relative}
+.nav-links a:after{content:"";position:absolute;bottom:-6px;right:0;width:0;height:1px;background:var(--gold);transition:width .35s var(--ease)}
+.nav-links a:hover{color:var(--tx)}.nav-links a:hover:after{width:100%}
+.btn{display:inline-block;font-family:'IBM Plex Sans Arabic';font-weight:700;font-size:15px;padding:14px 32px;border-radius:4px;cursor:pointer;border:none;transition:transform .3s var(--ease),box-shadow .3s;position:relative;overflow:hidden;letter-spacing:.3px}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:scale(.97)}
+.btn-gold{background:var(--gold);color:#26221F;box-shadow:0 12px 30px rgba(197,160,89,.3)}
+.btn-line{background:transparent;color:var(--tx);border:1px solid var(--tx)}
+.btn-line:hover{border-color:var(--gold);color:var(--gold-d)}
+.rip{position:absolute;border-radius:50%;background:rgba(255,255,255,.55);transform:scale(0);animation:rip .65s ease-out forwards;pointer-events:none}
+@keyframes rip{to{transform:scale(2.6);opacity:0}}
+.toggles{display:flex;gap:8px;align-items:center}
+.toggles button{background:transparent;border:1px solid rgba(51,47,52,.16);color:var(--grey);border-radius:4px;padding:8px 14px;font-family:'IBM Plex Sans Arabic';font-size:13px;font-weight:700;cursor:pointer}
+.toggles button:hover{border-color:var(--gold);color:var(--gold-d)}
+/* hero */
+.hero{padding:64px 0 60px;position:relative;overflow:hidden;background:linear-gradient(180deg,#EDEDF0,#F5F5F7 80%)}
+#grain{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;opacity:.7}
+.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:52px;align-items:center;position:relative;z-index:2}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:3px;color:var(--gold-d);text-transform:uppercase;margin-bottom:18px;font-weight:700}
+.kicker:before{content:"";width:34px;height:1px;background:var(--gold)}
+.hero h1{font-size:clamp(38px,5.6vw,66px);margin-bottom:10px;font-weight:700}
+.hero h1 span{color:var(--gold-d)}
+.hero p.lead{color:var(--grey);font-size:17.5px;max-width:520px;font-weight:300}
+.hero-cta{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.hero-meta{display:flex;gap:12px 24px;margin-top:26px;flex-wrap:wrap;color:var(--grey);font-size:13.5px}
+.hero-meta b{color:var(--tx);font-weight:700}
+.arena{border-radius:6px;min-height:540px;border:1px solid var(--line);position:relative;overflow:hidden;background:linear-gradient(145deg,#DEDADF 0%,#C9C3CB 40%,#A59EAA 100%);display:flex;align-items:flex-end;padding:30px;will-change:transform}
+.arena:before{content:"";position:absolute;top:-30%;right:-10%;width:70%;height:80%;background:radial-gradient(circle,rgba(197,160,89,.22),transparent 65%)}
+.arena:after{content:"";position:absolute;left:-20%;bottom:-30%;width:70%;height:70%;border:1px solid rgba(255,255,255,.5);border-radius:50%}
+.arena .chair{position:absolute;top:44%;left:50%;transform:translate(-50%,-50%);font-size:120px;filter:saturate(.6)}
+.arena .mono{position:absolute;top:8%;left:0;right:0;text-align:center;font-family:'Playfair Display',serif;font-size:120px;color:rgba(255,255,255,.34);line-height:1;letter-spacing:6px}
+.plaque{background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:4px;padding:16px 22px;font-size:14px;color:var(--grey);position:relative;z-index:2;backdrop-filter:blur(6px)}
+.plaque b{color:var(--gold-d)}
+.sale-badge{position:absolute;top:26px;left:26px;background:#332F34;color:#F5F5F7;font-size:12.5px;letter-spacing:2px;text-transform:uppercase;padding:9px 16px;border-radius:2px;z-index:3}
+/* marquee */
+.mq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#EDEDF0;overflow:hidden;padding:14px 0;position:relative;z-index:2}
+.mq-track{display:flex;gap:44px;white-space:nowrap;width:max-content;animation:mq 34s linear infinite;font-size:15px;letter-spacing:2px;color:var(--tx)}
+.mq-track i{color:var(--gold);font-style:normal}
+@keyframes mq{to{transform:translateX(50%)}}
+/* stats */
+.stats{padding:64px 0}
+.stats-in{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.stat{background:var(--soft);padding:34px 22px;text-align:center}
+.stat b{display:block;font-size:38px;color:var(--gold-d);font-family:'Playfair Display',serif;font-weight:600}
+.stat span{color:var(--grey);font-size:13.5px;letter-spacing:.6px}
+.sec-title{font-size:clamp(30px,4.2vw,50px);text-align:center;font-weight:700}
+.sec-title span{color:var(--gold-d)}
+.sec-sub{color:var(--grey);text-align:center;max-width:660px;margin:12px auto 0;font-weight:300}
+[data-words] .w{display:inline-block;opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s var(--ease)}
+[data-words].words-in .w{opacity:1;transform:none}
+/* catalog */
+.filters{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:34px 0 0}
+.filt{background:transparent;border:1px solid rgba(51,47,52,.16);color:var(--grey);border-radius:999px;padding:10px 24px;font-family:'IBM Plex Sans Arabic';font-size:14px;font-weight:600;cursor:pointer;transition:.3s}
+.filt:hover{border-color:var(--gold);color:var(--gold-d)}
+.filt.on{background:var(--tx);color:#F5F5F7;border-color:var(--tx)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}
+.tile{border:1px solid var(--line);background:var(--soft);border-radius:4px;overflow:hidden;transition:transform .4s var(--ease),box-shadow .4s}
+.tile:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(51,47,52,.12)}
+.tile .ph{height:230px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:64px;filter:saturate(.55)}
+.tile .ph:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(51,47,52,.12))}
+.tile .bd{padding:22px 24px 26px}
+.tile .bd small{color:var(--gold-d);font-size:11.5px;letter-spacing:2.5px;text-transform:uppercase}
+.tile .bd h3{font-size:22px;margin:4px 0 6px}
+.tile .bd p{color:var(--grey);font-size:14px;font-weight:300}
+.tile .ask{display:inline-block;margin-top:12px;font-size:13.5px;font-weight:700;color:var(--gold-d);border-bottom:1px solid transparent}
+.tile:hover .ask{border-color:var(--gold-d)}
+.tile.hide{display:none}
+/* why */
+.why{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:34px}
+.wh{background:var(--soft);padding:34px 26px}
+.wh b{display:block;font-family:'Amiri',serif;font-weight:700;font-size:19px;margin-bottom:8px}
+.wh b em{color:var(--gold-d);font-style:normal}
+.wh p{color:var(--grey);font-size:14px;font-weight:300}
+/* showrooms */
+.rooms{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
+.room{border:1px solid var(--line);background:var(--soft);border-radius:4px;padding:36px 34px;transition:border-color .35s,transform .35s var(--ease)}
+.room:hover{transform:translateY(-4px);border-color:var(--gold)}
+.room h3{font-size:26px;margin-bottom:2px}
+.room .tag{font-size:11.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold-d)}
+.room p{color:var(--grey);font-size:14.5px;margin:12px 0 18px;font-weight:300}
+.room .acts{display:flex;gap:10px;flex-wrap:wrap}
+.room .acts a{font-size:13.5px;padding:10px 20px}
+/* offer */
+.offer{background:var(--tx);color:#F5F5F7;border-radius:4px;padding:56px 44px;text-align:center;margin-top:34px;position:relative;overflow:hidden}
+.offer:before{content:"";position:absolute;top:-40%;left:-10%;width:60%;height:120%;background:radial-gradient(circle,rgba(197,160,89,.22),transparent 62%)}
+.offer .badge{display:inline-block;border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:6px 20px;font-size:12.5px;letter-spacing:3px;text-transform:uppercase;margin-bottom:16px}
+.offer h3{font-size:clamp(28px,4.4vw,44px);color:#fff}
+.offer h3 span{color:var(--gold)}
+.offer p{color:#C9C3CB;max-width:640px;margin:10px auto 22px;font-weight:300}
+.offer .fine{font-size:12.5px;color:#9A96A0;margin-top:16px}
+/* section alt bg */
+.alt{background:#EDEDF0}
+/* booking */
+.book{background:var(--soft);border:1px solid var(--line);border-radius:4px;padding:48px 42px;margin-top:34px}
+.book h3{font-size:26px;text-align:center}
+.book .sub2{text-align:center;color:var(--grey);font-size:14.5px;margin-bottom:22px;font-weight:300}
+.steps-dots{display:flex;gap:8px;margin:0 auto 24px;max-width:420px}
+.steps-dots i{flex:1;height:3px;background:rgba(51,47,52,.12);border-radius:2px}
+.steps-dots i.on{background:var(--gold)}
+.field{margin-bottom:16px;max-width:580px;margin-inline:auto}
+.field label{display:block;color:var(--grey);font-size:13.5px;margin-bottom:7px;font-weight:700;letter-spacing:.4px}
+.field select,.field input{width:100%;background:var(--bg);color:var(--tx);border:1px solid rgba(51,47,52,.16);border-radius:4px;padding:14px;font-family:'IBM Plex Sans Arabic';font-size:15px}
+.field select:focus,.field input:focus{border-color:var(--gold)}
+.review-box{background:#EDEDF0;border:1px solid var(--line);border-radius:4px;padding:20px;font-size:14.5px;color:var(--grey);max-width:580px;margin:0 auto}
+.review-box b{color:var(--tx)}
+.bbtns{display:flex;gap:10px;max-width:580px;margin:18px auto 0}
+/* faq */
+.faq{max-width:820px;margin:34px auto 0}
+details{border-bottom:1px solid rgba(51,47,52,.12);padding:22px 4px}
+summary{cursor:pointer;font-size:17px;font-weight:600;list-style:none;font-family:'Amiri',serif}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";float:left;color:var(--gold-d);font-size:20px;font-weight:400}
+details[open] summary:after{content:"−"}
+details p{color:var(--grey);margin-top:12px;font-size:15px;font-weight:300}
+/* final */
+.final{text-align:center;border:1px solid var(--line);border-radius:4px;padding:76px 30px;background:radial-gradient(ellipse at 50% 0%,rgba(197,160,89,.12),transparent 62%),var(--soft)}
+.final h2{font-size:clamp(30px,4.8vw,54px)}
+.final h2 span{color:var(--gold-d)}
+footer{border-top:1px solid rgba(51,47,52,.12);padding:46px 0;color:var(--grey);font-size:13.5px;background:#EDEDF0;position:relative;z-index:2}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer .socials{display:flex;gap:10px;flex-wrap:wrap}
+footer .socials a{border:1px solid rgba(51,47,52,.16);border-radius:999px;padding:7px 18px;font-size:12.5px;color:var(--tx);font-weight:600;letter-spacing:.6px}
+footer .socials a:hover{border-color:var(--gold);color:var(--gold-d)}
+.wa{position:fixed;bottom:22px;left:22px;z-index:60;background:#25D366;color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:27px;box-shadow:0 12px 32px rgba(0,0,0,.24)}
+.stickybar{position:fixed;bottom:0;left:0;right:0;z-index:55;display:none;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(245,245,247,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+.stickybar a{flex:1;text-align:center;font-size:14px;padding:13px;border-radius:4px;font-weight:800;font-family:'IBM Plex Sans Arabic'}
+.stickybar .s-wa{background:#25D366;color:#fff}
+.stickybar .s-book{background:var(--gold);color:#26221F}
+/* pitch */
+.nx-pitch{padding:40px 0}
+.nx-box{border:1px solid var(--line);border-radius:6px;padding:58px 44px;background:var(--soft);text-align:center}
+.nx-k{display:inline-block;border:1px solid var(--line);color:var(--gold-d);border-radius:999px;padding:7px 20px;font-size:13px;margin-bottom:18px;font-weight:700;letter-spacing:1px}
+.nx-box h2{font-size:clamp(26px,4.2vw,46px)}
+.nx-box h2 span{color:var(--gold-d)}
+.nx-lead{color:var(--grey);max-width:700px;margin:12px auto 0;font-size:16.5px;font-weight:300}
+.nx-cols{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin:30px 0;text-align:right}
+.nx-col{padding:30px;background:var(--soft)}
+.nx-col.bad{background:#F0EEF1}
+.nx-col h3{font-size:18px;margin-bottom:12px}
+.nx-col ul{list-style:none}
+.nx-col li{color:var(--grey);font-size:14.5px;padding:7px 0;font-weight:300}
+.nx-note{color:var(--grey);font-size:13px;margin-top:18px}
+/* toast */
+.nx-toast{position:fixed;bottom:26px;right:50%;transform:translateX(50%) translateY(20px);background:#332F34;border:1px solid var(--gold);color:#F5F5F7;border-radius:999px;padding:11px 26px;font-size:14px;z-index:130;opacity:0;pointer-events:none;transition:opacity .4s var(--ease),transform .4s var(--ease);max-width:92vw;text-align:center}
+.nx-toast.show{opacity:1;transform:translateX(50%) translateY(0)}
+/* dark theme */
+html[data-theme="dark"]{--bg:#211E23;--soft:#2A262B;--card:#2A262B;--tx:#F5F5F7;--grey:#A59EAA;--faint:#7D7882;--gold:#C5A059;--gold-d:#D6B36C;--line:rgba(197,160,89,.3)}
+html[data-theme="dark"] nav{background:rgba(33,30,35,.92)}
+html[data-theme="dark"] .topbar,html[data-theme="dark"] .mq,html[data-theme="dark"] footer{background:#1A181C}
+html[data-theme="dark"] .hero{background:linear-gradient(180deg,#242128,#211E23 80%)}
+html[data-theme="dark"] .alt{background:#1A181C}
+html[data-theme="dark"] .offer{background:#141216}
+html[data-theme="dark"] .arena{background:linear-gradient(145deg,#3A353E 0%,#2D2830 45%,#221F26 100%)}
+html[data-theme="dark"] .plaque{background:rgba(33,30,35,.9)}
+html[data-theme="dark"] .final{background:radial-gradient(ellipse at 50% 0%,rgba(197,160,89,.1),transparent 62%),var(--soft)}
+html[data-theme="dark"] .nx-col.bad{background:#241F26}
+html[data-theme="dark"] .btn-line{color:var(--tx)}
+html[data-theme="dark"] .sale-badge{background:var(--gold);color:#26221F}
+html[data-theme="dark"] .filt.on{background:var(--gold);color:#26221F;border-color:var(--gold)}
+html[data-theme="dark"] ::-webkit-scrollbar-track{background:#1A181C}
+html[data-theme="dark"] ::-webkit-scrollbar-thumb{background:#5A4E3A}
+@media(max-width:960px){.hero-grid{grid-template-columns:1fr}.arena{min-height:420px}.stats-in{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr 1fr}.why{grid-template-columns:1fr 1fr}.rooms{grid-template-columns:1fr}.nx-cols{grid-template-columns:1fr}}
+@media(max-width:600px){.grid,.why,.stats-in{grid-template-columns:1fr}.nav-links{display:none}.topbar{display:none}section{padding:64px 0}.nx-box{padding:38px 22px}.book{padding:30px 20px}.stickybar{display:flex}.wa{bottom:84px}}
+</style>
+</head>
+<body>
+<div id="loader"><div style="text-align:center"><div class="mono">HB</div><div class="bar"><i></i></div><p data-en="LUXURY FURNITURE">أثاث فاخر</p></div></div>
+<div class="nx-bar" id="nxBar"><div class="wrap nx-bar-in"><span class="nx-dot"></span><span data-en="A demo made specially for <b>HB Luxury</b> by <b>NEXORA</b>">عرض تجريبي صُنع مخصوص لـ <b>HB Luxury</b> بواسطة <b>NEXORA</b></span><a class="nx-cta" data-nx href="#" data-en="Want one in your name?">عايز واحد باسمك؟</a><button class="nx-tour" id="nxTour" data-en="▶ 60-second tour">▶ جولة 60 ثانية</button><button class="nx-x" id="nxX" aria-label="إغلاق الشريط" data-en-aria="Close the bar">×</button></div></div>
+<div class="topbar"><div class="wrap"><span data-en="Two showrooms · New Cairo &amp; Madinaty">صالتان · التجمع الخامس ومدينتي</span><span data-en="Madinaty offer: SALE UP TO 25%">عرض مدينتي: خصم حتى 25%</span></div></div>
+<nav><div class="wrap nav-in">
+  <div class="logo" data-en="HB <em>Luxury</em>">HB <em>Luxury</em><small data-en="FURNITURE">أثاث فاخر</small></div>
+  <div class="nav-links"><a href="#collections" data-en="Collections">المجموعات</a><a href="#rooms" data-en="Showrooms">الصالات</a><a href="#offer" data-en="Offer">العرض</a><a href="#visit" data-en="Book a visit">احجز زيارة</a></div>
+  <a class="btn btn-gold" href="#visit" data-en="Book your visit">احجز زيارتك</a><span class="toggles"><button id="langBtn" type="button">EN</button><button id="themeBtn" type="button" aria-label="تبديل المظهر" data-en-aria="Toggle theme">🌙</button></span>
+</div></nav>
+
+<header class="hero"><canvas id="grain" aria-hidden="true"></canvas><div class="wrap hero-grid">
+  <div>
+    <span class="kicker rv" data-en="Quiet luxury · since two showrooms">فخامة صامتة · صالتان</span>
+    <h1 class="rv" data-en="Make a statement <span>in your home</span>">خلي بيتك <span>يقول كلمة</span></h1>
+    <p class="lead rv" data-en="HB Luxury Furniture — luxury pieces in two showrooms, New Cairo and Madinaty. Browse the collections, catch the Madinaty offer, and book your visit.">HB Luxury Furniture — قطع فاخرة في صالتين، التجمع الخامس ومدينتي. تصفّح المجموعات، الحق عرض مدينتي، واحجز زيارتك.</p>
+    <div class="hero-cta rv"><a class="btn btn-gold" href="#visit" data-en="Book a showroom visit">احجز زيارتك للصالة</a><a class="btn btn-line" href="https://wa.me/201555606750" data-en="Instant WhatsApp">واتساب فوري</a></div>
+    <div class="hero-meta rv"><span data-en="<b>2</b> showrooms">صالتان <b>2</b></span><span data-en="TikTok <b>34.2K</b> followers">تيك توك <b>34.2K</b> متابع</span><span data-en="Instagram <b>10,576</b> on Facebook">إنستجرام وفيسبوك <b>10,576</b></span></div>
+  </div>
+  <div class="arena rv" id="arena">
+    <span class="sale-badge" data-en="Sale up to 25%">خصم حتى 25%</span>
+    <div class="mono">HB</div>
+    <div class="chair">🛋️</div>
+    <div class="plaque"><span data-en="Madinaty showroom · The Strip Mall — <b>ask what's in stock</b>">صالة مدينتي · The Strip Mall — <b>اسأل عن المتاح</b></span></div>
+  </div>
+</div></header>
+
+<div class="mq"><div class="mq-track"><span data-en="Luxury furniture <i>✦</i> Two showrooms <i>✦</i> New Cairo <i>✦</i> Madinaty <i>✦</i> Sale up to 25% <i>✦</i> Luxury furniture <i>✦</i> Two showrooms <i>✦</i> New Cairo <i>✦</i> Madinaty <i>✦</i>">أثاث فاخر <i>✦</i> صالتان <i>✦</i> التجمع الخامس <i>✦</i> مدينتي <i>✦</i> خصم حتى 25% <i>✦</i> أثاث فاخر <i>✦</i> صالتان <i>✦</i> التجمع الخامس <i>✦</i> مدينتي <i>✦</i></span></div></div>
+
+<section class="stats"><div class="wrap stats-in">
+  <div class="stat rv"><b><span data-count="2">0</span></b><span data-en="showrooms — New Cairo &amp; Madinaty">صالتان — التجمع ومدينتي</span></div>
+  <div class="stat rv"><b><span data-count="34.2" data-dec="1">0</span>K</b><span data-en="TikTok followers">متابع على تيك توك</span></div>
+  <div class="stat rv"><b><span data-count="10576">0</span></b><span data-en="Facebook followers">متابع على فيسبوك</span></div>
+  <div class="stat rv"><b><span data-count="25">0</span>%</b><span data-en="Madinaty sale, up to">خصم مدينتي، حتى</span></div>
+</div></section>
+
+<section id="collections" class="alt"><div class="wrap">
+  <h2 class="sec-title rv" data-words data-en="Collections, <span>by room</span>">المجموعات <span>حسب الأوضة</span></h2>
+  <p class="sec-sub rv" data-en="Pick a category and ask about it directly — the catalog is a conversation, not a dead page.">اختار القسم واسأل عنه مباشرة — الكتالوج محادثة مش صفحة ميتة.</p>
+  <div class="filters" id="filters">
+    <button type="button" class="filt on" data-f="all" data-en="All">الكل</button>
+    <button type="button" class="filt" data-f="bed" data-en="Bedrooms">غرف نوم</button>
+    <button type="button" class="filt" data-f="living" data-en="Living">غرف معيشة</button>
+    <button type="button" class="filt" data-f="decor" data-en="Decor">ديكور</button>
+    <button type="button" class="filt" data-f="icon" data-en="Iconic pieces">قطع أيقونية</button>
+  </div>
+  <div class="grid" id="catalog">
+    <div class="tile rv" data-cat="bed"><div class="ph" style="background:linear-gradient(150deg,#DEDADF,#A59EAA)">🛏️</div><div class="bd"><small data-en="Bedroom">غرفة نوم</small><h3 data-en="Master suites">أطقم رئيسية</h3><p data-en="Statement beds and full suites.">أسرّة أيقونية وأطقم كاملة.</p><a class="ask" href="https://wa.me/201555606750" data-en="Ask about it →">اسأل عنه ←</a></div></div>
+    <div class="tile rv" data-cat="living"><div class="ph" style="background:linear-gradient(150deg,#E4E0E6,#B9B2BD)">🛋️</div><div class="bd"><small data-en="Living">غرفة معيشة</small><h3 data-en="Living rooms">غرف معيشة</h3><p data-en="Sofas, coffee tables and consoles.">كنب وترابيزات ووحدات.</p><a class="ask" href="https://wa.me/201555606750" data-en="Ask about it →">اسأل عنه ←</a></div></div>
+    <div class="tile rv" data-cat="decor"><div class="ph" style="background:linear-gradient(150deg,#D8D3DA,#9C95A2)">🕯️</div><div class="bd"><small data-en="Decor">ديكور</small><h3 data-en="Decor &amp; lighting">ديكور وإضاءة</h3><p data-en="Copper, marble and lamé accents.">نحاس ورخام ولمسات لامي.</p><a class="ask" href="https://wa.me/201555606750" data-en="Ask about it →">اسأل عنه ←</a></div></div>
+    <div class="tile rv" data-cat="icon"><div class="ph" style="background:linear-gradient(150deg,#E0DBDF,#B0A9B4)">💎</div><div class="bd"><small data-en="Iconic">قطعة أيقونية</small><h3 data-en="Signature pieces">قطع بتوقيع</h3><p data-en="The piece that defines the room.">القطعة اللي بتعرّف الأوضة.</p><a class="ask" href="https://wa.me/201555606750" data-en="Ask about it →">اسأل عنه ←</a></div></div>
+    <div class="tile rv" data-cat="living"><div class="ph" style="background:linear-gradient(150deg,#DCD7DE,#ABA4B0)">🪑</div><div class="bd"><small data-en="Living">غرفة معيشة</small><h3 data-en="Accent seating">كراسي مميزة</h3><p data-en="Single chairs that change the mood.">كراسي فردية بتغيّر المود.</p><a class="ask" href="https://wa.me/201555606750" data-en="Ask about it →">اسأل عنه ←</a></div></div>
+    <div class="tile rv" data-cat="bed"><div class="ph" style="background:linear-gradient(150deg,#E2DEE3,#B4ADB9)">🪞</div><div class="bd"><small data-en="Bedroom">غرفة نوم</small><h3 data-en="Bedside &amp; dressing">كومودينو ودريسنج</h3><p data-en="The details that finish the suite.">التفاصيل اللي بتكمّل الطقم.</p><a class="ask" href="https://wa.me/201555606750" data-en="Ask about it →">اسأل عنه ←</a></div></div>
+  </div>
+  <p class="sec-sub rv" style="margin-top:20px" data-en="Availability and prices are confirmed per piece on WhatsApp — the showroom holds the live list.">المتاح والأسعار بتتأكد لكل قطعة واتساب — الصالة عندها الليستة الحية.</p>
+</div></section>
+
+<section id="why"><div class="wrap">
+  <h2 class="sec-title rv" data-en="Why HB">ليه HB</h2>
+  <div class="why">
+    <div class="wh rv"><b data-en="Two <em>showrooms</em>">صالتان <em>قريبتين منك</em></b><p data-en="New Cairo and Madinaty — see before you decide.">التجمع الخامس ومدينتي — تشوف قبل ما تقرر.</p></div>
+    <div class="wh rv"><b data-en="Quiet <em>luxury</em>">فخامة <em>صامتة</em></b><p data-en="Marble, lamé and copper, architectural style.">رخام ولامي ونحاس بستايل معماري.</p></div>
+    <div class="wh rv"><b data-en="A real <em>catalog</em>">كتالوج <em>حقيقي</em></b><p data-en="Browse by room instead of endless DMs.">تصفّح حسب الأوضة بدل رسائل مبعثرة.</p></div>
+    <div class="wh rv"><b data-en="Seen on <em>3 platforms</em>">موجودين على <em>3 منصات</em></b><p data-en="TikTok, Instagram and Facebook.">تيك توك وإنستجرام وفيسبوك.</p></div>
+  </div>
+</div></section>
+
+<section id="rooms" class="alt"><div class="wrap">
+  <h2 class="sec-title rv" data-words data-en="Two showrooms, <span>one standard</span>">صالتان <span>ومستوى واحد</span></h2>
+  <p class="sec-sub rv" data-en="Choose the showroom closest to you — calls and directions follow.">اختار الأقرب ليك — والاتصال والوصول يمشوا وراه.</p>
+  <div class="rooms">
+    <div class="room rv" data-b="التجمع الخامس" data-ben="New Cairo"><span class="tag" data-en="Main showroom">الصالة الرئيسية</span><h3 data-en="New Cairo — Fifth Settlement">التجمع الخامس</h3><p data-en="The main showroom, and the fastest WhatsApp line.">الصالة الرئيسية، وأسرع خط واتساب.</p><div class="acts"><a class="btn btn-gold" href="tel:+201555606750" data-en="📞 Call">📞 اتصال</a><a class="btn btn-line" href="https://wa.me/201555606750" data-en="💬 WhatsApp">💬 واتساب</a><a class="btn btn-line" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=HB+Luxury+Furniture+New+Cairo" data-en="🗺️ Map">🗺️ الخريطة</a></div></div>
+    <div class="room rv" data-b="مدينتي" data-ben="Madinaty"><span class="tag" data-en="Newly opened · The Strip Mall">افتُتحت حديثًا · The Strip Mall</span><h3 data-en="Madinaty — The Strip Mall">مدينتي — The Strip Mall</h3><p data-en="The newest showroom, running the SALE UP TO 25% campaign.">أحدث صالة، وعليها حملة خصم حتى 25%.</p><div class="acts"><a class="btn btn-gold" href="tel:+201101877557" data-en="📞 Call">📞 اتصال</a><a class="btn btn-line" target="_blank" rel="noopener" href="https://www.google.com/maps/search/HB+LUXURY+FURNITURE+MADINATY" data-en="🗺️ Map">🗺️ الخريطة</a></div></div>
+  </div>
+</div></section>
+
+<section id="offer"><div class="wrap"><div class="offer rv">
+  <span class="badge" data-en="Running now">سارية دلوقتي</span>
+  <h3 data-en="Madinaty: <span>Sale up to 25%</span>">مدينتي: <span>خصم حتى 25%</span></h3>
+  <p data-en="The campaign is live for the Madinaty showroom. Ask which pieces are included and whether it's still running before you come — campaigns move fast.">الحملة شغالة على صالة مدينتي. اسأل القطع المشمولة وهل العرض لسه ساري قبل ما تيجي — الحملات بتتحرك بسرعة.</p>
+  <a class="btn btn-gold" href="https://wa.me/201555606750?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%B9%D8%B1%D8%B6%20%D9%85%D8%AF%D9%8A%D9%86%D8%AA%D9%8A" data-en="Ask about the Madinaty offer">اسأل عن عرض مدينتي</a>
+  <p class="fine" data-en="Past seasonal campaigns have reached up to 50% off — history, not a promise.">حملات موسمية سابقة وصلت لخصم حتى 50% — تاريخ مش وعد.</p>
+</div></div></section>
+
+<section id="visit"><div class="wrap">
+  <h2 class="sec-title rv" data-words data-en="Book your <span>visit</span>">احجز <span>زيارتك</span></h2>
+  <p class="sec-sub rv" data-en="Showroom, what you're furnishing, and your number — the message writes itself.">الصالة واللي بتفرشه ورقمك — والرسالة بتتكتب لوحدها.</p>
+  <div class="book rv">
+    <h3 data-en="Visit booking">حجز زيارة</h3>
+    <p class="sub2" data-en="A showroom visit or a quick question — you choose.">زيارة صالة أو سؤال سريع — انت تختار.</p>
+    <div class="steps-dots" aria-hidden="true"><i class="on" id="bd1"></i><i id="bd2"></i><i id="bd3"></i></div>
+    <div id="bookBox">
+      <div class="bstep" data-s="1">
+        <div class="field"><label for="j-branch" data-en="Showroom">الصالة</label><select id="j-branch"><option data-en="New Cairo — Fifth Settlement">التجمع الخامس</option><option data-en="Madinaty — The Strip Mall">مدينتي — The Strip Mall</option></select></div>
+        <div class="field"><label for="j-cat" data-en="What are you furnishing?">بتفرش إيه؟</label><select id="j-cat"><option data-en="Bedroom">غرفة نوم</option><option data-en="Living room">غرفة معيشة</option><option data-en="Decor &amp; lighting">ديكور وإضاءة</option><option data-en="Iconic piece">قطعة أيقونية</option><option data-en="Whole home">البيت بالكامل</option></select></div>
+        <button class="btn btn-gold" id="j-next1" type="button" style="width:100%" data-en="Next →">التالي ←</button>
+      </div>
+      <div class="bstep" data-s="2" style="display:none">
+        <div class="field"><label for="j-name" data-en="Your name">اسمك</label><input id="j-name" type="text" placeholder="مثال: سارة" data-en-ph="e.g. Sara"></div>
+        <div class="field"><label for="j-phone" data-en="Mobile (11 digits)">الموبايل (11 رقم)</label><input id="j-phone" type="tel" inputmode="numeric" placeholder="01xxxxxxxxx"></div>
+        <div class="bbtns"><button class="btn btn-line" id="j-back" type="button" data-en="→ Back">رجوع ←</button><button class="btn btn-gold" id="j-next2" type="button" style="flex:1" data-en="Review →">راجع ←</button></div>
+      </div>
+      <div class="bstep" data-s="3" style="display:none">
+        <div class="review-box" id="j-review"></div>
+        <div class="bbtns"><button class="btn btn-line" id="j-back2" type="button" data-en="→ Edit">تعديل ←</button><a class="btn btn-gold" id="j-send" href="https://wa.me/201555606750" style="flex:1;text-align:center" data-en="Send booking on WhatsApp 💬">ابعت الحجز واتساب 💬</a></div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap"><div class="faq" style="padding-bottom:0">
+  <h2 class="sec-title rv" data-en="Before you ask">قبل ما تسأل</h2>
+  <details class="rv" open><summary data-en="Do you have an online store?">فيه متجر أونلاين؟</summary><p data-en="Not yet — the brand currently lives on social platforms and this catalog is a sample of what a full site would look like.">لسه لأ — العلامة حاليًا على منصات التواصل، والكتالوج ده عينة لشكل الموقع الكامل.</p></details>
+  <details class="rv"><summary data-en="Where exactly are the showrooms?">الصالتان فين بالظبط؟</summary><p data-en="New Cairo (Fifth Settlement) and Madinaty (The Strip Mall) — open the map on each showroom card.">التجمع الخامس ومدينتي (The Strip Mall) — افتح الخريطة من كارت كل صالة.</p></details>
+  <details class="rv"><summary data-en="Does the 25% offer cover everything?">خصم 25% بيشمل كل حاجة؟</summary><p data-en="The campaign is for the Madinaty showroom and the included pieces are confirmed on WhatsApp before you come.">الحملة على صالة مدينتي، والقطع المشمولة بتتأكد واتساب قبل ما تيجي.</p></details>
+  <details class="rv"><summary data-en="Can I see prices listed?">الأسعار مكتوبة؟</summary><p data-en="Prices follow the piece and its finish, so they're confirmed per item — one message gets you the live answer.">الأسعار بتتبع القطعة وتشطيبها، فبتتأكد لكل قطعة — رسالة واحدة بتجيب الرد الحي.</p></details>
+</div></div></section>
+
+<section class="nx-pitch"><div class="wrap"><div class="nx-box rv">
+  <p class="nx-k" data-en="✦ A private message from NEXORA to HB Luxury management">✦ رسالة خاصة من NEXORA إلى إدارة HB Luxury</p>
+  <h2 data-en="34.2K on TikTok… <span>and nowhere owned to land</span>">34.2K على تيك توك… <span>وبلا وجهة مملوكة</span></h2>
+  <p class="nx-lead" data-en="You have two showrooms, a running campaign and thousands of followers, yet every viewer still ends at a phone number. This page is a <b>free sample</b> of the luxury catalog that turns viewers into booked showroom visits — your competitors already have one.">عندكم صالتان وحملة شغالة وآلاف المتابعين، وكل مشاهد لسه بينتهي عند رقم تليفون. الصفحة دي <b>عينة مجانية</b> للكتالوج الفاخر اللي يحوّل المشاهدين لزيارات صالة محجوزة — منافسوكم عندهم واحد بالفعل.</p>
+  <div class="nx-cols">
+    <div class="nx-col bad"><h3 data-en="🔻 Where you are now">🔻 انتوا فين دلوقتي</h3><ul><li data-en="No central catalog — every inquiry by phone or DM">مفيش كتالوج مركزي — كل استفسار تليفون أو رسالة</li><li data-en="Campaigns run with no landing page to capture leads">حملات بلا صفحة هبوط تلمّ العملاء</li><li data-en="Every TikTok visit ends on someone else's platform">كل زيارة تيك توك بتنتهي على منصة مش بتاعتكم</li></ul></div>
+    <div class="nx-col good"><h3 data-en="🔺 What this site gives you">🔺 الموقع ده بيديكم إيه</h3><ul><li data-en="A luxury catalog browsable by room">كتالوج فاخر يتصفّح حسب الأوضة</li><li data-en="Campaign landing pages that capture leads">صفحات هبوط للحملات بتلمّ العملاء</li><li data-en="A measured path from video to showroom visit">مسار مقاس من الفيديو لزيارة الصالة</li></ul></div>
+  </div>
+  <a class="btn btn-gold" data-nx href="#" data-en="Send us the catalog demo — WhatsApp">ابعتولنا ديمو الكتالوج — واتساب</a>
+  <p class="nx-note" data-en="NEXORA — full build with your real product photos and approved prices within 7 working days.<br>WhatsApp: <bdi class=&quot;num&quot;>01062264302</bdi> · All our links: <a href=&quot;https://beacons.ai/nexora.01.eg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;text-decoration:underline;font-weight:700&quot;>beacons.ai/nexora.01.eg</a>">NEXORA — التنفيذ الكامل بصور منتجاتكم وأسعاركم المعتمدة خلال 7 أيام عمل.<br>واتساب: <bdi class="num">01062264302</bdi> · كل لينكاتنا: <a href="https://beacons.ai/nexora.01.eg" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:700">beacons.ai/nexora.01.eg</a></p>
+</div></div></section>
+
+<section><div class="wrap"><div class="final rv">
+  <h2 data-en="Your next piece is <span>one visit away</span>">قطعتك الجاية <span>على بعد زيارة</span></h2>
+  <p style="color:var(--grey);margin:14px 0 30px" data-en="Pick a showroom and book — New Cairo or Madinaty.">اختار صالة واحجز — التجمع الخامس أو مدينتي.</p>
+  <a class="btn btn-gold" href="#visit" data-en="Book now">احجز دلوقتي</a>
+</div></div></section>
+
+<footer><div class="wrap">
+  <div><b style="font-family:'Amiri',serif;font-size:19px;color:var(--tx)" data-en="HB Luxury Furniture — New Cairo &amp; Madinaty">HB Luxury Furniture — التجمع الخامس ومدينتي</b><br><span data-en="New Cairo: <bdi class=&quot;num&quot;>01555606750</bdi> · Madinaty: <bdi class=&quot;num&quot;>01101877557</bdi> · © 2026">التجمع: <bdi class="num">01555606750</bdi> · مدينتي: <bdi class="num">01101877557</bdi> · © 2026</span></div>
+  <div class="socials"><a href="https://www.tiktok.com/@hb.luxury.eg" target="_blank" rel="noopener">TikTok</a><a href="https://www.instagram.com/hb.luxuryfurniture/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/p/HB-Luxury-100091704992857/" target="_blank" rel="noopener">Facebook</a></div>
+</div></footer>
+<div class="stickybar"><a class="s-wa" href="https://wa.me/201555606750" data-en="💬 WhatsApp">💬 واتساب</a><a class="s-book" href="#visit" data-en="✨ Book a visit">✨ احجز زيارة</a></div>
+<a class="wa" href="https://wa.me/201555606750" aria-label="واتساب HB Luxury" data-en-aria="HB Luxury WhatsApp">💬</a>
+<script>
+/* reveal + counters + words */
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+var rm0=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function runCounts(scope){scope.querySelectorAll('[data-count]').forEach(function(el){var t=parseFloat(el.dataset.count),d=parseInt(el.dataset.dec||'0');if(rm0){el.textContent=d?t.toFixed(d):Math.round(t).toLocaleString('en-US');return}var t0=null;function step(ts){if(!t0)t0=ts;var p=Math.min((ts-t0)/1600,1),v=t*(1-Math.pow(1-p,3));el.textContent=d?v.toFixed(d):Math.round(v).toLocaleString('en-US');if(p<1)requestAnimationFrame(step)}requestAnimationFrame(step)})}
+if(!('IntersectionObserver' in window))runCounts(document);else{var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){runCounts(e.target);cio.unobserve(e.target)}})},{threshold:.4});document.querySelectorAll('.stats-in').forEach(function(s){cio.observe(s)})}
+if(!rm0){document.querySelectorAll('[data-words]').forEach(function(h){if(h.querySelector('.w'))return;var words=h.textContent.trim().split(/\s+/);h.setAttribute('aria-label',words.join(' '));h.innerHTML='';words.forEach(function(w,i){var s=document.createElement('span');s.className='w';s.textContent=w;s.style.transitionDelay=(i*70)+'ms';h.appendChild(s);h.appendChild(document.createTextNode(' '))});new IntersectionObserver(function(es,o){es.forEach(function(e){if(e.isIntersecting){h.classList.add('words-in');o.disconnect()}})},{threshold:.5}).observe(h)})}
+/* catalog filter */
+document.querySelectorAll('#filters .filt').forEach(function(b){b.addEventListener('click',function(){
+ document.querySelectorAll('#filters .filt').forEach(function(x){x.classList.remove('on')});b.classList.add('on');
+ var f=b.dataset.f;
+ document.querySelectorAll('#catalog .tile').forEach(function(t){t.classList.toggle('hide',f!=='all'&&t.dataset.cat!==f)});
+ toast((window.__NX_LANG==='en'?'Showing: ':'بنعرض: ')+(window.__NX_LANG==='en'?(b.dataset.en||b.textContent.trim()):b.textContent.trim()))})});
+/* rooms + form */
+var curRoom='التجمع الخامس';
+document.querySelectorAll('.room').forEach(function(r){r.addEventListener('click',function(){curRoom=r.dataset.b;var jb=document.getElementById('j-branch');if(jb){jb.selectedIndex=(r.dataset.b==='مدينتي')?1:0}toast((window.__NX_LANG==='en'?'Showroom: ':'اخترت صالة: ')+(window.__NX_LANG==='en'?(r.dataset.ben||curRoom):curRoom))})});
+var jB=document.getElementById('j-branch'),jC=document.getElementById('j-cat'),jN=document.getElementById('j-name'),jPh=document.getElementById('j-phone');
+function jStep(n){document.querySelectorAll('.bstep').forEach(function(s){s.style.display=(+s.dataset.s===n)?'':'none'});['bd1','bd2','bd3'].forEach(function(id,i){document.getElementById(id).classList.toggle('on',i<n)})}
+document.getElementById('j-next1').addEventListener('click',function(){jStep(2)});
+document.getElementById('j-back').addEventListener('click',function(){jStep(1)});
+document.getElementById('j-next2').addEventListener('click',function(){
+if(!jN.value.trim()){toast(window.__NX_LANG==='en'?'Write your name first':'اكتب اسمك الأول');jN.focus();return}
+if(!/^01[0-9]{9}$/.test((jPh.value||'').replace(/[\s-]/g,''))){toast(window.__NX_LANG==='en'?'Mobile must be 11 digits starting 01':'الموبايل لازم 11 رقم يبدأ بـ01');jPh.focus();return}
+var en=(window.__NX_LANG==='en');
+document.getElementById('j-review').innerHTML='<b>'+(en?'Showroom: ':'الصالة: ')+'</b>'+jB.value+'<br><b>'+(en?'Furnishing: ':'بتفرش: ')+'</b>'+jC.value+'<br><b>'+(en?'Name: ':'الاسم: ')+'</b>'+jN.value+'<br><b>'+(en?'Mobile: ':'الموبايل: ')+'</b>'+jPh.value;
+document.getElementById('j-send').href='https://wa.me/201555606750?text='+encodeURIComponent((en?'HB Luxury visit booking: ':'حجز زيارة HB Luxury: ')+jB.value+' / '+jC.value+' / '+jN.value+' / '+jPh.value);
+jStep(3)});
+document.getElementById('j-back2').addEventListener('click',function(){jStep(2)});
+/* motion + demo + theme + i18n */
+(function(){
+var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+var toastEl=document.createElement('div');toastEl.className='nx-toast';document.body.appendChild(toastEl);var tt;
+window.toast=function(m){toastEl.textContent=m;toastEl.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){toastEl.classList.remove('show')},2600)};
+document.querySelectorAll('a[href*="wa.me"]').forEach(function(a){a.addEventListener('click',function(){toast(window.__NX_LANG==='en'?'Opening WhatsApp — the showroom answers there ✨':'بيفتح واتساب — الصالة بترد هناك ✨')})});
+if(rm)return;
+var cv=document.getElementById('grain');
+if(cv){var ctx=cv.getContext('2d'),W=0,H=0,ps=[],run=true;
+function size(){var r=cv.parentElement.getBoundingClientRect();W=cv.width=Math.max(1,r.width);H=cv.height=Math.max(1,r.height)}
+function init(){var n=W<600?16:40;ps=[];for(var i=0;i<n;i++)ps.push({x:Math.random()*W,y:Math.random()*H,r:.6+Math.random()*1.6,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.18,o:Math.random()*6})}
+function tick(){if(run){ctx.clearRect(0,0,W,H);for(var i=0;i<ps.length;i++){var p=ps[i];p.x+=p.vx;p.y+=p.vy;if(p.x<-6)p.x=W+6;if(p.x>W+6)p.x=-6;if(p.y<-6)p.y=H+6;if(p.y>H+6)p.y=-6;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,7);ctx.fillStyle='rgba(197,160,89,'+(0.15+0.3*Math.abs(Math.sin(p.o+=.015))).toFixed(2)+')';ctx.fill()}}requestAnimationFrame(tick)}
+size();init();requestAnimationFrame(tick);
+addEventListener('resize',function(){size();init()});
+new IntersectionObserver(function(es){run=es[0].isIntersecting;if(run)requestAnimationFrame(tick)}).observe(cv.parentElement);}
+var hero=document.querySelector('.hero'),copy=document.querySelector('.hero-grid>div:first-child'),arena=document.getElementById('arena'),track=document.querySelector('.mq-track'),mqVisible=true,tick=false,lastY=scrollY,mqCur=34;
+if(track)new IntersectionObserver(function(es){mqVisible=es[0].isIntersecting}).observe(track);
+function journey(){tick=false;var y=scrollY,v=Math.abs(y-lastY);lastY=y;
+if(hero&&copy){var r=hero.getBoundingClientRect(),p=Math.max(0,Math.min(1,-r.top/((r.height)||1)));copy.style.transform='translateY('+(p*80).toFixed(1)+'px)';copy.style.opacity=Math.max(0,1-p*1.5).toFixed(2)}
+if(track&&mqVisible){var target=Math.max(9,Math.min(34,34/(1+v*.03)));mqCur+=(target-mqCur)*.12;track.style.animationDuration=mqCur.toFixed(2)+'s'}}
+addEventListener('scroll',function(){if(tick)return;tick=true;requestAnimationFrame(journey)},{passive:true});journey();
+if(arena&&matchMedia('(pointer:fine)').matches){arena.addEventListener('mousemove',function(e){var r=arena.getBoundingClientRect();arena.style.transform='perspective(1100px) rotateY('+(((e.clientX-r.left)/r.width-.5)*5).toFixed(2)+'deg) rotateX('+(-((e.clientY-r.top)/r.height-.5)*5).toFixed(2)+'deg)'});arena.addEventListener('mouseleave',function(){arena.style.transform=''})}
+if(matchMedia('(pointer:fine)').matches){document.querySelectorAll('.hero-cta .btn').forEach(function(b){b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate('+((e.clientX-r.left-r.width/2)*.1).toFixed(1)+'px,'+((e.clientY-r.top-r.height/2)*.16).toFixed(1)+'px)'});b.addEventListener('mouseleave',function(){b.style.transform=''})})}
+document.querySelectorAll('.btn').forEach(function(b){b.addEventListener('click',function(e){try{var r=b.getBoundingClientRect(),sz=Math.max(r.width,r.height),s=document.createElement('span');s.className='rip';s.style.width=s.style.height=sz+'px';s.style.left=(e.clientX-r.left-sz/2)+'px';s.style.top=(e.clientY-r.top-sz/2)+'px';b.appendChild(s);setTimeout(function(){s.remove()},680)}catch(err){}})});
+document.getElementById('nxTour').addEventListener('click',function(){
+var stops=[
+ {sel:'#arena',msg:'1/4 — القطعة الأيقونية وشارة الحملة في أول نظرة.',msge:'1/4 — The iconic piece and campaign badge at first sight.'},
+ {sel:'#collections',msg:'2/4 — كتالوج بالفئات: تصفّح واطلب مباشرة.',msge:'2/4 — A catalog by category: browse and ask directly.'},
+ {sel:'#rooms',msg:'3/4 — الصالتان: ضغطة تختار الصالة ويمشي وراها الاتصال والخريطة.',msge:'3/4 — The two showrooms: one tap and calls/maps follow.'},
+ {sel:'.nx-box',msg:'4/4 — وده الـpitch بتاعكم يا HB Luxury. عايزينه باسمكم؟ ✦',msge:'4/4 — And this is your pitch, HB Luxury. Want it in your name? ✦'}];
+var i=0;clearTimeout(window.__tourT);
+(function step(){if(i>=stops.length){window.toast(window.__NX_LANG==='en'?'Tour done — waiting for your signature ✦':'خلصت الجولة — مستني توقيعكم ✦');return}
+var s=stops[i++],el=document.querySelector(s.sel);
+if(el){el.scrollIntoView({behavior:rm?'auto':'smooth',block:'center'});el.classList.add('tour-glow');setTimeout(function(){el.classList.remove('tour-glow')},2300)}
+window.toast(window.__NX_LANG==='en'?(s.msge||s.msg):s.msg);window.__tourT=setTimeout(step,2700)})()});
+var loader=document.getElementById('loader');
+function lift(){if(!loader||loader.classList.contains('lift'))return;loader.classList.add('lift');setTimeout(function(){if(loader&&loader.parentNode)loader.parentNode.removeChild(loader);loader=null},850)}
+addEventListener('load',function(){setTimeout(lift,950)});setTimeout(lift,2400);
+})();
+</script>
+<script>
+/* الثيم واللغة */
+(function(){
+var root=document.documentElement,DEF='light',SITE='hb-luxury';
+var tb=document.getElementById('themeBtn'),lb=document.getElementById('langBtn');
+function applyTheme(t){if(t===DEF)root.removeAttribute('data-theme');else root.setAttribute('data-theme',t);if(tb)tb.textContent=(t==='dark')?'☀️':'🌙';try{localStorage.setItem('nx-theme-'+SITE,t)}catch(e){}}
+var th=DEF;try{th=localStorage.getItem('nx-theme-'+SITE)||DEF}catch(e){}
+if(tb)tb.addEventListener('click',function(){var cur=root.getAttribute('data-theme')||DEF;applyTheme(cur==='dark'?'light':'dark')});
+applyTheme(th);
+var LANG='ar';
+try{LANG=localStorage.getItem('nx-lang-'+SITE)||'ar'}catch(e){}
+function setLang(l){LANG=l;window.__NX_LANG=l;var en=(l==='en');
+document.querySelectorAll('[data-en]').forEach(function(el){if(!el.dataset.ar)el.dataset.ar=el.innerHTML;el.innerHTML=en?el.dataset.en:el.dataset.ar});
+document.querySelectorAll('[data-en-ph]').forEach(function(el){if(!el.dataset.arPh)el.dataset.arPh=el.placeholder;el.placeholder=en?el.dataset.enPh:el.dataset.arPh});
+document.querySelectorAll('[data-en-aria]').forEach(function(el){if(!el.dataset.arAria)el.dataset.arAria=el.getAttribute('aria-label');if(en)el.setAttribute('aria-label',el.dataset.enAria);else if(el.dataset.arAria)el.setAttribute('aria-label',el.dataset.arAria)});
+root.lang=l;root.dir=en?'ltr':'rtl';
+if(lb)lb.textContent=en?'عربي':'EN';
+try{localStorage.setItem('nx-lang-'+SITE,l)}catch(e){}
+if(window.__langHook){try{window.__langHook(en)}catch(e){}}}
+if(lb)lb.addEventListener('click',function(){setLang(LANG==='ar'?'en':'ar')});
+window.__langHook=function(en){
+var nxm=en?'I saw the HB Luxury catalog page — send us the catalog demo':'شفت صفحة كتالوج HB Luxury — ابعتولنا ديمو الكتالوج';
+document.querySelectorAll('[data-nx]').forEach(function(a){a.href='https://wa.me/201062264302?text='+encodeURIComponent(nxm)});
+};
+setLang(LANG);
+window.__setLang=setLang;
+})();
+</script>
+</body>
+</html>

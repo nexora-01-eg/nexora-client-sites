@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-en="Marrouf — House of Wood | Solid wood furniture since 1992, Mansoura">معروف — بيت الخشب | أثاث خشب طبيعي منذ 1992، المنصورة</title>
+<meta name="description" content="من ورشة 1949 لمعرض المنصورة: أنتريهات وغرف نوم ودريسنج بخشب طبيعي. 4.7★ وتوصيل للقاهرة والجيزة والشيخ زايد.">
+<meta name="theme-color" content="#17100A">
+<meta property="og:title" content="معروف — بيت الخشب منذ 1992">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FurnitureStore","name":"Marrouf Furniture — بيت الخشب","address":{"@type":"PostalAddress","streetAddress":"شارع النخلة بجوار صيدلية حمزة ومسجد المروة","addressLocality":"المنصورة","addressCountry":"EG"},"telephone":"+201002763801","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","bestRating":"5"},"openingHours":"Mo-Th,Sa-Su 13:00-21:00"}</script>
+<style>
+:root{
+  --wood:#17100A; --wood2:#211409; --wood3:#2C1D0E;
+  --honey:#DFA258; --honey-d:#B97C33; --cream:#F4EBDA;
+  --sand:#C9B18C; --clay:#C96F4A; --ink:#2A1D10;
+  --line:rgba(223,162,88,.22); --ease:cubic-bezier(.22,1,.36,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--wood);color:var(--cream);font-family:'IBM Plex Sans Arabic',sans-serif;line-height:1.9;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");}
+h1,h2,h3,.ruqaa{font-family:'Aref Ruqaa',serif;font-weight:700;line-height:1.6}
+.wrap{max-width:1180px;margin:0 auto;padding:0 26px;position:relative;z-index:2}
+section{padding:90px 0;position:relative}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.mq-track,.stamp,.nx-dot{animation:none!important}#dust{display:none}.rip{display:none}}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:2px solid var(--honey);outline-offset:3px}
+/* شريط عنوان صغير */
+.topbar{background:#100B06;border-bottom:1px solid var(--line);font-size:13px;color:var(--sand);position:relative;z-index:5}
+.topbar .wrap{display:flex;justify-content:space-between;gap:10px;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+/* تنقل */
+nav{position:sticky;top:0;z-index:50;background:rgba(23,16,10,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{font-family:'Aref Ruqaa',serif;font-size:30px;color:var(--cream)}
+.logo em{color:var(--honey);font-style:normal}
+.logo small{display:block;font-family:'IBM Plex Sans Arabic';font-size:11px;color:var(--sand);letter-spacing:0}
+.nav-links{display:flex;gap:30px;color:var(--sand);font-size:15px}
+.nav-links a:hover{color:var(--honey)}
+.btn{display:inline-block;font-family:'IBM Plex Sans Arabic';font-weight:700;font-size:15px;padding:13px 30px;border-radius:14px 14px 14px 4px;cursor:pointer;border:none;transition:transform .35s var(--ease),box-shadow .35s}
+.btn:hover{transform:translateY(-2px)}
+.btn-honey{background:linear-gradient(135deg,var(--honey),var(--honey-d));color:#241505;box-shadow:0 10px 26px rgba(223,162,88,.25)}
+.btn-ghost{background:transparent;color:var(--honey);border:1.5px solid var(--honey)}
+/* هيرو مقسوم */
+.hero{padding:70px 0 60px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+.eyebrow{display:inline-block;border:1px solid var(--line);color:var(--honey);border-radius:999px;padding:6px 18px;font-size:13.5px;margin-bottom:18px;background:rgba(223,162,88,.06)}
+.hero h1{font-size:clamp(38px,5.6vw,66px);margin-bottom:10px}
+.hero h1 span{color:var(--honey)}
+.hero p.lead{color:var(--sand);font-size:18px;max-width:520px}
+.hero-cta{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+.hero-meta{display:flex;gap:10px 22px;margin-top:26px;flex-wrap:wrap;color:var(--sand);font-size:14px}
+.hero-meta b{color:var(--cream)}
+.arch{border-radius:200px 200px 22px 22px;background:linear-gradient(165deg,#3A2410,#191007 65%);border:1px solid var(--line);min-height:520px;position:relative;overflow:hidden;padding:34px;display:flex;align-items:flex-end}
+.arch:before{content:"";position:absolute;inset:18px;border:1px dashed rgba(223,162,88,.35);border-radius:180px 180px 14px 14px}
+.arch .rings{position:absolute;top:70px;left:0;right:0;text-align:center;color:var(--honey);opacity:.9}
+.arch .rings .big{font-family:'Aref Ruqaa';font-size:92px;line-height:1;display:block}
+.plaque{background:rgba(16,11,6,.82);border:1px solid var(--line);border-radius:14px;padding:16px 20px;font-size:14.5px;color:var(--sand);position:relative}
+.plaque b{color:var(--honey)}
+.stamp{position:absolute;top:26px;left:26px;width:104px;height:104px;border:2px solid var(--clay);color:var(--clay);border-radius:50%;display:grid;place-items:center;text-align:center;font-size:12.5px;font-weight:700;transform:rotate(-12deg);background:rgba(23,16,10,.6)}
+/* شريط متحرك */
+.mq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#100B06;overflow:hidden;padding:14px 0;position:relative;z-index:2}
+.mq-track{display:flex;gap:44px;white-space:nowrap;width:max-content;animation:mq 26s linear infinite;color:var(--sand);font-size:16px}
+.mq-track b{color:var(--honey)}
+@keyframes mq{to{transform:translateX(50%)}}
+/* أرقام */
+.stats{padding:60px 0}
+.stats-in{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.stat{border:1px solid var(--line);border-radius:16px;padding:24px;text-align:center;background:var(--wood2)}
+.stat b{display:block;font-size:40px;color:var(--honey);font-weight:700}
+.stat span{color:var(--sand);font-size:14.5px}
+/* تايم لاين */
+.tl{position:relative;margin-top:40px;padding-right:34px}
+.tl:before{content:"";position:absolute;top:6px;bottom:6px;right:9px;width:2px;background:linear-gradient(var(--honey),var(--honey-d),transparent)}
+.tl-item{position:relative;padding:0 0 34px}
+.tl-item:before{content:"";position:absolute;right:-33px;top:12px;width:16px;height:16px;border-radius:50%;background:var(--wood);border:3px solid var(--honey)}
+.tl-item .yr{font-family:'Aref Ruqaa';font-size:30px;color:var(--honey)}
+.tl-item h3{font-size:22px;margin:2px 0 6px}
+.tl-item p{color:var(--sand);max-width:620px}
+/* المشغل */
+.workshop{background:var(--wood2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.ws-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:44px;align-items:center;margin-top:36px}
+.ws-view{border-radius:22px;min-height:380px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:120px;position:relative;overflow:hidden;transition:background .6s}
+.ws-view small{position:absolute;bottom:16px;background:rgba(16,11,6,.8);border:1px solid var(--line);padding:6px 18px;border-radius:999px;font-size:14px;color:var(--honey)}
+.ws-opts{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}
+.wood{border:1.5px solid var(--line);background:transparent;color:var(--sand);border-radius:12px;padding:12px 22px;font-family:'IBM Plex Sans Arabic';font-size:15px;cursor:pointer}
+.wood.on{background:var(--honey);color:#241505;border-color:var(--honey);font-weight:700}
+.ws-price{font-size:34px;color:var(--honey);font-weight:700;margin:8px 0}
+.sec-title{font-size:clamp(30px,4.4vw,50px);text-align:center}
+.sec-sub{color:var(--sand);text-align:center;max-width:620px;margin:10px auto 0}
+/* كتالوج */
+.filters{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:30px 0}
+.fbtn{border:1.5px solid var(--line);background:transparent;color:var(--sand);font-family:'IBM Plex Sans Arabic';font-size:14.5px;padding:9px 24px;border-radius:999px;cursor:pointer}
+.fbtn.on{background:var(--honey);color:#241505;border-color:var(--honey);font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--wood2);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:transform .45s var(--ease)}
+.card:hover{transform:translateY(-6px)}
+.card .ph{height:200px;display:grid;place-items:center;font-size:70px;background:linear-gradient(150deg,#33200E,#181006)}
+.card .bd{padding:22px}
+.card h3{font-size:20px}
+.card p{color:var(--sand);font-size:14.5px;margin:6px 0 14px}
+.card .row{display:flex;justify-content:space-between;align-items:center;border-top:1px dashed var(--line);padding-top:14px}
+.price{color:var(--honey);font-weight:700}
+.card .row a{color:var(--honey);font-size:14.5px;font-weight:700}
+/* توصيل */
+.deliv-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:34px}
+.city{border:1px dashed var(--honey-d);border-radius:16px;padding:26px 18px;text-align:center;background:rgba(223,162,88,.04)}
+.city b{display:block;font-size:19px}
+.city span{color:var(--sand);font-size:14px}
+/* آراء */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:34px}
+.rev{background:var(--wood2);border:1px solid var(--line);border-radius:4px 22px 4px 22px;padding:28px;position:relative}
+.rev:before{content:"”";position:absolute;top:6px;left:18px;font-family:'Aref Ruqaa';font-size:60px;color:var(--honey);opacity:.4}
+.rev .stars{color:var(--honey);letter-spacing:3px}
+.rev p{color:var(--sand);font-size:15px;margin:10px 0}
+/* زيارة */
+.visit{background:#100B06;border:1px solid var(--line);border-radius:24px;padding:44px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;margin-top:20px}
+.visit h3{font-size:30px}
+.visit p{color:var(--sand)}
+/* أسئلة */
+.faq{max-width:780px;margin:30px auto 0}
+details{border:1px solid var(--line);border-radius:14px;background:var(--wood2);margin-bottom:12px;padding:18px 22px}
+summary{cursor:pointer;font-size:17px;font-weight:700;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";float:left;color:var(--honey);font-size:22px}
+details[open] summary:after{content:"−"}
+details p{color:var(--sand);margin-top:10px;font-size:15.5px}
+/* ختام */
+.final{text-align:center;border:1px solid var(--line);border-radius:28px;padding:70px 30px;background:radial-gradient(ellipse at 50% 0%,rgba(223,162,88,.12),transparent 60%),var(--wood2)}
+.final h2{font-size:clamp(32px,5vw,56px)}
+.final h2 span{color:var(--honey)}
+footer{border-top:1px solid var(--line);padding:40px 0;color:var(--sand);font-size:14px;background:#100B06;position:relative;z-index:2}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+footer .socials{display:flex;gap:10px}
+footer .socials a{border:1px solid var(--line);border-radius:999px;padding:6px 18px;font-size:13.5px;color:var(--honey)}
+.wa{position:fixed;bottom:22px;left:22px;z-index:60;background:#1FA855;color:#fff;width:60px;height:60px;border-radius:50% 50% 50% 8px;display:grid;place-items:center;font-size:28px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+/* طبقة ديمو NEXORA */
+.nx-progress{position:fixed;top:0;right:0;left:0;height:3px;background:var(--honey);z-index:120;transform:scaleX(0);transform-origin:right}
+.nx-bar{background:linear-gradient(90deg,#241505,#3A2410);border-bottom:2px solid var(--honey);position:relative;z-index:90}
+.nx-bar-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap;font-size:14px}
+.nx-dot{width:10px;height:10px;border-radius:50%;background:var(--honey);box-shadow:0 0 12px var(--honey);animation:blink 1.8s infinite}
+@keyframes blink{50%{opacity:.35}}
+.nx-cta{background:var(--honey);color:#241505;font-weight:700;border-radius:8px;padding:6px 18px;font-size:13.5px;margin-right:auto}
+.nx-x{background:none;border:1px solid var(--line);color:var(--sand);border-radius:8px;width:30px;height:30px;cursor:pointer;font-size:16px}
+.calc{background:var(--wood2);border:1px solid var(--line);border-radius:22px;padding:40px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;margin-top:34px}
+.calc label{display:block;color:var(--sand);font-size:15px;margin:14px 0 8px;font-weight:700}
+.calc select{width:100%;background:var(--wood);color:var(--cream);border:1px solid var(--line);border-radius:12px;padding:13px 14px;font-family:'IBM Plex Sans Arabic';font-size:15px}
+.calc .lvl{display:flex;gap:10px;flex-wrap:wrap}
+.calc-out{background:rgba(223,162,88,.06);border:1px dashed var(--honey-d);border-radius:16px;padding:26px;text-align:center}
+.calc-out span{color:var(--sand);font-size:14px}
+.calc-out b{display:block;font-size:38px;color:var(--honey);margin:6px 0}
+.calc-out p{color:var(--sand);font-size:14px;margin-bottom:16px}
+.t-rot{background:var(--wood2);border:1px solid var(--line);border-radius:18px;padding:34px;text-align:center;margin-top:34px;position:relative}
+.t-rot .stars{color:var(--honey);letter-spacing:3px}
+#tQuote{font-size:20px;transition:opacity .4s}
+#tQuote.fade{opacity:0}
+.t-dots{display:flex;gap:8px;justify-content:center;margin-top:14px}
+.t-dots i{width:9px;height:9px;border-radius:50%;background:var(--line);transition:.3s}
+.t-dots i.on{background:var(--honey)}
+.nx-pitch{padding:40px 0}
+.nx-box{border:2px dashed var(--honey-d);border-radius:26px;padding:56px 44px;background:#100B06;text-align:center}
+.nx-k{display:inline-block;background:rgba(223,162,88,.1);border:1px solid var(--line);color:var(--honey);border-radius:999px;padding:7px 20px;font-size:14px;margin-bottom:16px}
+.nx-box h2{font-size:clamp(28px,4.4vw,48px)}
+.nx-box h2 span{color:var(--honey)}
+.nx-lead{color:var(--sand);max-width:640px;margin:10px auto 0;font-size:17px}
+.nx-cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0;text-align:right}
+.nx-col{border-radius:16px;padding:26px}
+.nx-col.bad{background:rgba(201,111,74,.07);border:1px solid rgba(201,111,74,.4)}
+.nx-col.good{background:rgba(223,162,88,.06);border:1px solid var(--line-g)}
+.nx-col h3{font-size:19px;margin-bottom:10px}
+.nx-col ul{list-style:none}
+.nx-col li{color:var(--sand);font-size:15px;padding:6px 0}
+.nx-col.bad li:before{content:"🔻 "}
+.nx-col.good li:before{content:"🔺 "}
+.nx-note{color:var(--sand);font-size:13.5px;margin-top:16px}
+.btn{position:relative;overflow:hidden}
+.rip{position:absolute;border-radius:50%;background:rgba(255,255,255,.45);transform:scale(0);animation:rip .6s ease-out forwards;pointer-events:none}
+@keyframes rip{to{transform:scale(2.6);opacity:0}}
+@keyframes floaty{0%,100%{transform:rotate(-12deg) translateY(0)}50%{transform:rotate(-12deg) translateY(-10px)}}
+.stamp{animation:floaty 5s ease-in-out infinite}
+/* حركات CX */
+#dust{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+.tl:before{transform:scaleY(var(--tlp,1));transform-origin:top}
+.arch{will-change:transform}
+.btn:active,.wood:active,.fbtn:active{transform:scale(.96)}
+.nx-toast{position:fixed;bottom:26px;right:50%;transform:translateX(50%) translateY(20px);background:#241505;border:1px solid var(--honey);color:var(--cream);border-radius:999px;padding:11px 26px;font-size:14.5px;z-index:130;opacity:0;pointer-events:none;transition:opacity .4s var(--ease),transform .4s var(--ease);max-width:92vw;text-align:center}
+.nx-toast.show{opacity:1;transform:translateX(50%) translateY(0)}
+/* فن الجاليري */
+::selection{background:var(--honey);color:#241505}
+::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:#100B06}::-webkit-scrollbar-thumb{background:#5A3D1C;border-radius:6px}
+.arch{overflow:hidden}
+.grain{position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,#4A2E14,#2A1A0C 40%,#5A3A1A 60%,#241505);filter:url(#woodGrain);opacity:.55}
+.arch>*:not(.grain){position:relative;z-index:1}
+.ghost{position:absolute;font-family:'Aref Ruqaa';font-size:clamp(130px,24vw,320px);line-height:1;color:transparent;-webkit-text-stroke:1px rgba(223,162,88,.16);pointer-events:none;user-select:none;white-space:nowrap;z-index:0}
+.ghost-sec{position:relative;overflow:hidden}
+.ghost-sec .wrap{position:relative;z-index:1}
+@media (prefers-reduced-motion:reduce){.grain{filter:none}}
+/* سينما الورشة */
+#loader{position:fixed;inset:0;z-index:200;background:#100B06;display:grid;place-items:center;transition:opacity .7s ease,visibility .7s}
+#loader.lift{opacity:0;visibility:hidden}
+#loader .mark{width:110px;height:110px}
+#loader .mark circle{fill:none;stroke:var(--honey);stroke-width:3;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.1s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+#loader .lbar{width:180px;height:2px;background:#3A2A14;margin:12px auto 0;border-radius:2px;overflow:hidden}
+#loader .lbar i{display:block;height:100%;width:40%;background:var(--honey);border-radius:2px;animation:load 1.1s ease-in-out infinite}
+@keyframes load{0%{transform:translateX(220%)}100%{transform:translateX(-320%)}}
+.cine{position:absolute;left:0;right:0;height:7vh;background:#000;z-index:4}
+.cine.top{top:0;transform-origin:top}.cine.bot{bottom:0;transform-origin:bottom}
+.hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.55));z-index:1}
+.chapter{display:inline-block;font-size:13.5px;color:var(--honey);border:1px solid var(--line);border-radius:999px;padding:5px 18px;margin-bottom:14px;background:rgba(0,0,0,.4)}
+@media (prefers-reduced-motion:reduce){#loader{display:none}.cine{display:none}}
+.nx-tour{background:none;border:1px solid var(--honey);color:var(--honey);border-radius:8px;padding:6px 14px;font-size:13px;cursor:pointer;font-family:'IBM Plex Sans Arabic'}
+.tour-glow{outline:3px solid var(--honey)!important;outline-offset:8px;border-radius:12px}
+[data-words] .w{display:inline-block;opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s var(--ease)}
+[data-words].words-in .w{opacity:1;transform:none}
+.quiz{background:var(--wood2);border:1px solid var(--line);border-radius:22px;padding:44px 36px;margin-top:34px;text-align:center;position:relative;overflow:hidden}
+.quiz:before{content:"؟";position:absolute;top:-30px;left:20px;font-family:'Aref Ruqaa';font-size:150px;color:rgba(223,162,88,.08)}
+.quiz h3{font-size:28px}
+.quiz .qsub{color:var(--sand);font-size:15px}
+.quiz .qq{font-size:21px;margin:18px 0 14px;color:var(--cream)}
+.quiz .qopts{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.quiz .qopts button{border:1.5px solid var(--line);background:var(--wood);color:var(--sand);border-radius:12px;padding:12px 24px;font-family:'IBM Plex Sans Arabic';font-size:15px;cursor:pointer;transition:.3s}
+.quiz .qopts button:hover{border-color:var(--honey);color:var(--honey);transform:translateY(-2px)}
+.quiz .qprog{color:var(--sand);font-size:13px;margin-top:16px}
+.quiz .qres b{color:var(--honey);font-size:24px}
+@media(max-width:600px){.nx-toast{bottom:94px}}
+@media(max-width:960px){.hero-grid,.ws-grid,.calc{grid-template-columns:1fr}.arch{min-height:420px}.stats-in,.deliv-grid{grid-template-columns:repeat(2,1fr)}.cards,.revs{grid-template-columns:1fr 1fr}.visit{grid-template-columns:1fr}}
+@media(max-width:600px){.cards,.revs,.stats-in,.deliv-grid{grid-template-columns:1fr}.nav-links{display:none}section{padding:64px 0}.topbar{display:none}.nx-cols{grid-template-columns:1fr}.nx-box{padding:38px 22px}.calc{padding:26px 20px}}
+/* light theme */
+html[data-theme="light"]{--wood:#F1E7D3;--wood2:#FFFDF6;--cream:#2A1D10;--sand:#6E5B40;--honey:#B97C33;--honey-d:#9A6423;--line:rgba(42,29,16,.22)}
+html[data-theme="light"] .ghost{-webkit-text-stroke-color:rgba(140,100,40,.28)}
+.toggles{display:flex;gap:8px;align-items:center}
+.toggles button{background:transparent;border:1.5px solid var(--line);color:var(--sand);border-radius:10px;padding:8px 14px;font-family:'IBM Plex Sans Arabic';font-size:13.5px;font-weight:700;cursor:pointer}
+.toggles button:hover{border-color:var(--honey);color:var(--honey)}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="woodGrain"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="2" seed="7" result="n"><animate attributeName="baseFrequency" values="0.012 0.09;0.014 0.11;0.012 0.09" dur="9s" repeatCount="indefinite"/></feTurbulence><feDisplacementMap in="SourceGraphic" scale="22"/></filter></svg>
+<div id="loader"><div style="text-align:center"><svg class="mark" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" pathLength="1"/></svg><p style="font-family:'Aref Ruqaa';font-size:32px;color:var(--cream)">معروف</p><p style="color:var(--sand);font-size:14px">بيت الخشب · منذ 1992</p><div class="lbar"><i></i></div></div></div>
+<div class="nx-progress" id="nxProg"></div>
+<div class="nx-bar" id="nxBar"><div class="wrap nx-bar-in"><span class="nx-dot"></span><span data-en="A demo made specially for <b>Marrouf — House of Wood</b> by <b>NEXORA</b>">عرض تجريبي صُنع مخصوص لـ <b>معروف — بيت الخشب</b> بواسطة <b>NEXORA</b></span><a class="nx-cta" data-nx href="#" data-en="Want one in your name?">عايز واحد باسمك؟</a><button class="nx-tour" id="nxTour" data-en="▶ 60-second tour">▶ جولة 60 ثانية</button><button class="nx-x" id="nxX" aria-label="إغلاق الشريط">×</button></div></div>
+<div class="topbar"><div class="wrap"><span data-en="Nakhela St. — next to Hamza pharmacy and El-Marwa mosque, Mansoura">شارع النخلة — بجوار صيدلية حمزة ومسجد المروة، المنصورة</span><span data-en="Daily 1–9 PM · Friday the workshop rests">يوميًا 1 – 9 مساءً · الجمعة إجازة الورشة</span></div></div>
+<nav><div class="wrap nav-in">
+  <div class="logo" data-en="Marrouf <em>Wood House</em>">معروف <em>بيت الخشب</em></div>
+  <div class="nav-links"><a href="#story" data-en="Story">الحكاية</a><a href="#workshop" data-en="Workshop">المشغل</a><a href="#catalog" data-en="Catalog">الكتالوج</a><a href="#visit" data-en="Visit">زورنا</a></div>
+  <a class="btn btn-honey" href="https://wa.me/201002763801?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D9%83%D8%AA%D8%A7%D9%84%D9%88%D8%AC%20%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1" data-en="Get the catalog">اطلب الكتالوج</a><span class="toggles"><button id="langBtn" type="button">EN</button><button id="themeBtn" type="button" aria-label="تبديل المظهر" data-en-aria="Toggle theme">☀️</button></span>
+</div></nav>
+
+<header class="hero"><canvas id="dust" aria-hidden="true"></canvas><div class="cine top" id="cineTop"></div><div class="cine bot" id="cineBot"></div><div class="wrap hero-grid">
+  <div>
+    <span class="eyebrow rv" data-en="🌳 Solid wood — since 1992">🌳 خشب طبيعي — من سنة 1992</span>
+    <h1 class="rv" data-en="From your father's workshop… <span>to your son's home</span>">من ورشة أبوك… <span>لشقة ابنك</span></h1>
+    <p class="lead rv" data-en="Three generations crafting wood in Mansoura, roots since 1949. Living rooms, bedrooms and dressing rooms in named solid wood — not painted cardboard.">تلات أجيال بتنجّر الخشب في المنصورة، والجذور من 1949. أنتريهات وغرف نوم ودريسنج بخشب يتسمّى بالاسم — مش كرتون مدهون.</p>
+    <div class="hero-cta rv">
+      <a class="btn btn-honey" href="https://wa.me/201002763801?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%B3%D8%B9%D8%B1%20%D8%A7%D9%84%D8%A3%D9%86%D8%AA%D8%B1%D9%8A%D9%87"" data-en="Ask the price on WhatsApp">اسأل على السعر واتساب</a>
+      <a class="btn btn-ghost" href="#workshop"" data-en="Try the workshop">جرّب المشغل</a>
+    </div>
+    <div class="hero-meta rv"><span data-en="★ <b>4.7</b> on Google Maps">★ <b>4.7</b> على خرايط جوجل</span><span data-en="<b>+223K</b> loving followers"><b>+223 ألف</b> متابع بيحبونا</span><span data-en="Delivering to <b>Cairo and Zayed</b>">بنوصّل <b>القاهرة وزايد</b></span></div>
+  </div>
+  <div class="arch rv">
+    <div class="grain" aria-hidden="true"></div>
+    <div class="stamp" data-en="Solid wood<br>100%">خشب طبيعي<br>100%</div>
+    <div class="rings"><span style="font-size:15px" data-en="Craft roots since">جذور المهنة من</span><span class="big">1949</span></div>
+    <div class="plaque" data-en="🪵 Every piece stamped with its wood: <b>beech, oak, pine</b> — ask the carpenter before you pay a pound.">🪵 كل قطعة مختومة باسم الخشبة: <b>زان، أرو، موسكي</b> — اسأل النجّار قبل ما تدفع جنيه.</div>
+  </div>
+</div></header>
+
+<div class="mq"><div class="mq-track"><span data-en="Romanian <b>beech</b> wood ✦ Natural <b>oak</b> veneer ✦ <b>Dressing rooms</b> tailored to your space ✦ Delivering to <b>Cairo, Giza and Zayed</b> ✦ Home installation ✦ Romanian <b>beech</b> wood ✦ Natural <b>oak</b> veneer ✦ <b>Dressing rooms</b> tailored to your space ✦ Delivering to <b>Cairo, Giza and Zayed</b> ✦ Home installation ✦">خشب <b>زان</b> روماني ✦ قشرة <b>أرو</b> طبيعي ✦ <b>دريسنج</b> على مقاس أوضتك ✦ توصيل <b>القاهرة والجيزة وزايد</b> ✦ تركيب في بيتك ✦ خشب <b>زان</b> روماني ✦ قشرة <b>أرو</b> طبيعي ✦ <b>دريسنج</b> على مقاس أوضتك ✦ توصيل <b>القاهرة والجيزة وزايد</b> ✦ تركيب في بيتك ✦</span></div></div>
+
+<section class="stats"><div class="wrap stats-in">
+  <div class="stat rv"><b><span data-count="223">0</span>K+</b><span data-en="followers across Facebook, Instagram and TikTok">متابع على فيسبوك وإنستجرام وتيك توك</span></div>
+  <div class="stat rv"><b><span data-count="4.7" data-dec="1">0</span>★</b><span data-en="rated by the people of Mansoura on Maps">تقييم أهل المنصورة على الخرايط</span></div>
+  <div class="stat rv"><b data-count="1949">0</b><span data-en="the year our woodworking roots began">سنة بداية الجذور في النجارة</span></div>
+  <div class="stat rv"><b data-count="3">0</b><span data-en="governorates we deliver and install in">محافظات بنركّب فيها لحد باب الشقة</span></div>
+</div></section>
+
+<section id="story" class="ghost-sec"><div class="ghost" data-sp="-.1" style="top:6%;left:-2%" aria-hidden="true">1949</div><div class="wrap">
+<div style="text-align:center"><span class="chapter rv" data-en="Scene one · The roots">المشهد الأول · الجذور</span></div>
+  <h2 class="sec-title rv" data-words data-en="The story in brief">الحكاية باختصار</h2>
+  <p class="sec-sub rv" data-en="Not a showroom that opened yesterday — a family that lived between sawdust and varnish.">مش معرض اتفتح امبارح — دي عيلة عاشت عمرها بين النشارة والورنيش.</p>
+  <div class="tl">
+    <div class="tl-item rv"><div class="yr">1949</div><h3 data-en="The roots: grandfather's workshop">الجذور: ورشة الجد</h3><p data-en="The family's first saw and chisel — authentic traditional carpentry, and customers came by name.">أول منشار وأول إزميل في العيلة — نجارة بلدي على أصولها، والزبون كان بييجي بالاسم.</p></div>
+    <div class="tl-item rv"><div class="yr">1992</div><h3 data-en="The name: Marrouf Furniture">الاسم: معروف للأثاث</h3><p data-en="The showroom opened in Mansoura with the workshop behind it — what sells here is made here.">المعرض اتفتح في المنصورة، والورشة وراه — اللي يتباع هنا بيتصنع هنا.</p></div>
+    <div class="tl-item rv"><div class="yr">2026</div><h3 data-en="Today: a quarter million followers">النهاردة: ربع مليون متابع</h3><p data-en="Installation Reels from Cairo and Zayed homes are our ads — customers film their own apartments.">Reels التركيبات في بيوت القاهرة وزايد هي إعلاننا — الزبون بيصور شقته بنفسه.</p></div>
+  </div>
+</div></section>
+
+<section id="quiz"><div class="wrap">
+  <h2 class="sec-title rv" data-words data-en="Which wood matches your personality?">أي خشبة شخصيتك؟</h2>
+  <p class="sec-sub rv" data-en="Just 3 questions — we will tell you the finish that looks like you and turn it on in the workshop.">3 أسئلة بس — ونقولك التشطيب اللي شبهك ونشغّله لك في المشغل.</p>
+  <div class="quiz rv" id="woodQuiz"></div>
+</div></section>
+
+<section id="workshop" class="workshop ghost-sec"><div class="ghost" data-sp="-.14" style="bottom:0;right:-2%" aria-hidden="true">1992</div><div class="wrap">
+<div style="text-align:center"><span class="chapter rv" data-en="Scene two · The workshop">المشهد الثاني · المشغل</span></div>
+  <h2 class="sec-title rv" data-en="The finishing workshop">مشغل التشطيب</h2>
+  <p class="sec-sub rv" data-en="Tap a wood — see its color and price before you even call us.">دوس على الخشبة — شوف لونها وسعر المتر فيها قبل ما تكلمنا.</p>
+  <div class="ws-grid">
+    <div class="ws-view rv" id="wsView" style="background:linear-gradient(150deg,#6B4A2A,#2A1A0C)">🛋️<small id="wsName">زان روماني — لون عسلي غامق</small></div>
+    <div class="rv">
+      <h3 style="font-size:26px" data-en="Pick the wood that suits your mood">اختار الخشبة اللي على مزاجك</h3>
+      <p style="color:var(--sand)" data-en="Every wood has a soul and a price — pine is tender, oak veneer is luxury, beech is the authentic middle.">كل خشبة لها روح وسعر — الموسكي حنين، والأرو فخامة، والزان هو الوسط الأصيل.</p>
+      <div class="ws-opts" role="group" aria-label="اختيار نوع الخشب" data-en-aria="Choose the wood type">
+        <button class="wood on" data-bg="linear-gradient(150deg,#6B4A2A,#2A1A0C)" data-n="زان روماني — لون عسلي غامق" data-p="28,000"" data-en="Romanian beech">زان روماني</button>
+        <button class="wood" data-bg="linear-gradient(150deg,#8A5A30,#3A2210)" data-n="قشرة أرو طبيعي — نقشة فاخرة" data-p="45,000"" data-en="Natural oak veneer">قشرة أرو</button>
+        <button class="wood" data-bg="linear-gradient(150deg,#C9A06A,#6B4A26)" data-n="موسكي فاتح — اقتصادي وأصيل" data-p="19,000"" data-en="Pine">موسكي</button>
+      </div>
+      <div data-en="Starting from <span class=&quot;ws-price&quot; id=&quot;wsPrice&quot;>EGP 28,000</span>">يبدأ من <span class="ws-price" id="wsPrice">28,000 ج.م</span></div>
+      <p style="color:var(--sand);font-size:14px" data-en="* Indicative price for a mid-size sofa — final depends on size and fabric.">* سعر استرشادي للأنتريه الوسط — النهائي حسب المقاس والقماش.</p>
+      <div style="display:flex;gap:12px;margin-top:16px;flex-wrap:wrap"><a class="btn btn-honey" id="wsWa" href="https://wa.me/201002763801?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%B3%D8%B9%D8%B1%20%D8%AA%D8%B4%D8%B7%D9%8A%D8%A8%20%D8%B2%D8%A7%D9%86"" data-en="Send this finish on WhatsApp">ابعت التشطيب ده واتساب</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="calc"><div class="wrap">
+  <h2 class="sec-title rv" data-en="Apartment furnishing calculator">حاسبة فرش الشقة</h2>
+  <p class="sec-sub rv" data-en="How many rooms? Pick the level — the estimate is right in front of you.">شقتك كام أوضة؟ اختار المستوى — والتقدير قدامك قبل ما تكلمنا.</p>
+  <div class="calc rv">
+    <div>
+      <label for="c-rooms" data-en="Rooms (excluding bathroom and kitchen)">عدد الغرف (من غير الحمام والمطبخ)</label>
+      <select id="c-rooms"><option value="2" data-en="2 rooms">أوضتين</option><option value="3" selected data-en="3 rooms">3 أوض</option><option value="4" data-en="4 rooms">4 أوض</option><option value="5" data-en="5 rooms">5 أوض</option></select>
+      <label data-en="Finishing level">مستوى التشطيب</label>
+      <div class="lvl" role="group" aria-label="مستوى التشطيب" data-en-aria="Finishing level">
+        <button class="wood" data-p="90000" data-n="اقتصادي أصيل" data-en="Budget">اقتصادي</button>
+        <button class="wood on" data-p="150000" data-n="وسط فاخر" data-en="Mid luxury">وسط</button>
+        <button class="wood" data-p="240000" data-n="فاخر ملوكي" data-en="Royal luxury">فاخر</button>
+      </div>
+    </div>
+    <div class="calc-out"><span data-en="Your apartment estimate">تقدير فرش شقتك</span><b id="c-total">450,000 ج.م</b><p id="c-det">3 أوض · وسط فاخر — أنتريه ونوم وسفرة بالتقريب</p><a class="btn btn-honey" id="c-wa" href="https://wa.me/201002763801" data-en="Send the details on WhatsApp →">ابعت التفاصيل واتساب ←</a></div>
+  </div>
+</div></section>
+
+<section id="catalog"><div class="wrap">
+<div style="text-align:center"><span class="chapter rv" data-en="Scene three · The catalog">المشهد الثالث · الكتالوج</span></div>
+  <h2 class="sec-title rv" data-words data-en="The catalog, straight from the workshop">الكتالوج من الورشة</h2>
+  <p class="sec-sub rv" data-en="Every model has its own WhatsApp button with the question ready — no more prices hiding in comments.">كل موديل تحته زرار واتساب بسؤاله — مفيش أسعار مستخبية في الكومنتات.</p>
+  <div class="filters rv" role="group" aria-label="تصفية الكتالوج" data-en-aria="Filter the catalog">
+    <button class="fbtn on" data-f="all" aria-pressed="true" data-en="Everything">كله</button>
+    <button class="fbtn" data-f="living" aria-pressed="false" data-en="Sofas and corners">أنتريهات وركن</button>
+    <button class="fbtn" data-f="bed" aria-pressed="false" data-en="Bedrooms and wardrobes">نوم ودولاب</button>
+    <button class="fbtn" data-f="store" aria-pressed="false" data-en="Dressing and custom">دريسنج وتفصيل</button>
+  </div>
+  <div class="cards" id="grid">
+    <div class="card rv" data-c="living"><div class="ph">🛋️</div><div class="bd"><h3 data-en="Modern beech sofa">أنتريه زان مودرن</h3><p data-en="High-density foam and fabric that survives kids — sizes to fit your hall.">سفنج كثافة عالية وقماش يستحمل العيال — مقاسات حسب صالتك.</p><div class="row"><span class="price" data-en="EGP 28,000+">28,000+ ج.م</span><a href="https://wa.me/201002763801?text=%D8%A8%D8%B3%D8%A3%D9%84%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%A3%D9%86%D8%AA%D8%B1%D9%8A%D9%87%20%D8%A7%D9%84%D8%B2%D8%A7%D9%86"" data-en="Ask about it →">اسأل عليه →</a></div></div></div>
+    <div class="card rv" data-c="living"><div class="ph">🪑</div><div class="bd"><h3 data-en="Big family corner">ركنة عيلة كبيرة</h3><p data-en="Seats 7 comfortably — a beech frame that lives with you for years.">تشيل 7 مرتاح — هيكل زان يعيش معاك سنين.</p><div class="row"><span class="price" data-en="EGP 32,000+">32,000+ ج.م</span><a href="https://wa.me/201002763801?text=%D8%A8%D8%B3%D8%A3%D9%84%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B1%D9%83%D9%86%D8%A9"" data-en="Ask about it →">اسأل عليها →</a></div></div></div>
+    <div class="card rv" data-c="bed"><div class="ph">🛏️</div><div class="bd"><h3 data-en="Oak-veneer bedroom">أوضة نوم قشرة أرو</h3><p data-en="160 bed + nightstands + wardrobe + dresser — newlywed finish.">سرير 160 + كومود + دولاب + تسريحة — تشطيب عريس.</p><div class="row"><span class="price" data-en="EGP 45,000+">45,000+ ج.م</span><a href="https://wa.me/201002763801?text=%D8%A8%D8%B3%D8%A3%D9%84%20%D8%B9%D9%84%D9%89%20%D8%A3%D9%88%D8%B6%D8%A9%20%D8%A7%D9%84%D9%86%D9%88%D9%85"" data-en="Ask about it →">اسأل عليها →</a></div></div></div>
+    <div class="card rv" data-c="bed"><div class="ph">🗄️</div><div class="bd"><h3 data-en="6-door sliding wardrobe">دولاب 6 ضلفة سحاب</h3><p data-en="Clean runners and finishing inside before outside.">مجاري نضيفة وتقفيل من جوه قبل بره.</p><div class="row"><span class="price" data-en="EGP 22,000+">22,000+ ج.م</span><a href="https://wa.me/201002763801?text=%D8%A8%D8%B3%D8%A3%D9%84%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%A8"" data-en="Ask about it →">اسأل عليه →</a></div></div></div>
+    <div class="card rv" data-c="store"><div class="ph">🚪</div><div class="bd"><h3 data-en="L-shaped dressing room">دريسنج حرف L</h3><p data-en="Divided around your clothes — with LED if you want flair.">متقسم على هدومك — وLED لو عايز دلع.</p><div class="row"><span class="price" data-en="By measurements">حسب المقاس</span><a href="https://wa.me/201002763801?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D9%85%D9%82%D8%A7%D9%8A%D8%B3%D8%A9%20%D8%AF%D8%B1%D9%8A%D8%B3%D9%86%D8%AC"" data-en="Measure your room →">قيس أوضتك ←</a></div></div></div>
+    <div class="card rv" data-c="store"><div class="ph">✨</div><div class="bd"><h3 data-en="Tailored to your taste">فصّل على مزاجك</h3><p data-en="Send a photo of the model plus your room measurements and we will make it.">ابعت صورة الموديل ومقاس الأوضة ونعملهولك.</p><div class="row"><span class="price" data-en="Free visit*">معاينة مجانية*</span><a href="https://wa.me/201002763801?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D9%81%D8%B5%D9%84%20%D9%85%D9%88%D8%AF%D9%8A%D9%84"" data-en="Send the photo →">ابعت الصورة ←</a></div></div></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 class="sec-title rv" data-en="Where do we deliver and install?">بنركّب فين؟</h2>
+  <p class="sec-sub rv" data-en="The truck leaves Mansoura loaded — and the carpenter rides along.">العربية بتطلع من المنصورة محمّلة — والنجّار نازل معاها.</p>
+  <div class="deliv-grid">
+    <div class="city rv"><b data-en="🏠 Mansoura">🏠 المنصورة</b><span data-en="Showroom and workshop — Nakhela St.">المعرض والورشة — شارع النخلة</span></div>
+    <div class="city rv"><b data-en="🌆 Cairo">🌆 القاهرة</b><span data-en="Delivery and installation to your door">توصيل وتركيب لحد الشقة</span></div>
+    <div class="city rv"><b data-en="🏙️ Giza">🏙️ الجيزة</b><span data-en="Documented installations on Reels">تركيبات موثقة Reels</span></div>
+    <div class="city rv"><b data-en="🌇 Sheikh Zayed">🌇 الشيخ زايد</b><span data-en="Zayed customers vouch for us">عملاء زايد يشهدوا</span></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 class="sec-title rv" data-en="What customers say">كلام الزباين</h2>
+  <div class="t-rot rv"><div class="stars">★★★★★</div><p id="tQuote"" data-en="Real wood, not ad talk. Installation in Cairo right on time.</p><b id="tWho" style="color:var(--honey)"" data-en="— Zayed customer">— عميل زايد</b><div class="t-dots" id="tDots"><i class="on"></i><i></i><i></i></div></div>
+  <div class="revs">
+    <div class="rev rv"><div class="stars">★★★★★</div><p" data-en="Real wood, not ad talk. Installation in Cairo right on time.</p><b" data-en="— Zayed customer">— عميل زايد</b></div>
+    <div class="rev rv"><div class="stars">★★★★★</div><p data-en="I have dealt with many showrooms, but here I felt a real workshop behind the store.">اتعاملت مع معارض كتير، بس هنا حسيت إن ورا المعرض ورشة بجد.</p><b data-en="— Om Mariam, Mansoura">— أم مريم، المنصورة</b></div>
+    <div class="rev rv"><div class="stars">★★★★☆</div><p data-en="I used to ask the price in comments — now the catalog answers before I ask.">كنت بسأل على السعر في الكومنتات — دلوقتي الكتالوج بيرد قبل ما أسأل.</p><b data-en="— Instagram follower">— متابعة إنستجرام</b></div>
+  </div>
+</div></section>
+
+<section id="visit"><div class="wrap">
+  <div class="visit rv">
+    <div><h3 data-en="Come smell the workshop">عدّي شمّ ريحة الورشة</h3><p data-en="Nakhela St. — next to Hamza pharmacy and El-Marwa mosque. Daily 1 to 9 PM; Friday the workshop rests.">شارع النخلة — جنب صيدلية حمزة ومسجد المروة. يوميًا من 1 لـ 9 بالليل، والجمعة الورشة واخدة إجازة.</p></div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-honey" href="https://wa.me/201002763801?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D9%84%D9%88%D9%83%D9%8A%D8%B4%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D8%B6" data-en="Send me the location">ابعت اللوكيشن</a><a class="btn btn-ghost" href="tel:+201002763801" data-en="Call: 01002763801">اتصل: 01002763801</a></div>
+  </div>
+  <div class="faq">
+    <details class="rv" open><summary data-en="So… how much?">السعر كام طيب؟</summary><p data-en="Every model is priced by wood and size — tap any card and WhatsApp opens with the question ready.">كل موديل بسعره حسب الخشبة والمقاس — دوس على أي كارت وهيفتح واتساب بالسؤال جاهز.</p></details>
+    <details class="rv"><summary data-en="Is the wood really solid?">الخشب طبيعي بجد؟</summary><p data-en="Romanian beech, oak veneer and pine — and if you want proof, visit the workshop and see the wood before paint.">زان روماني وقشرة أرو وموسكي — ولو عايز تتأكد، عدّي الورشة وشوف الخشب قبل الدهان.</p></details>
+    <details class="rv"><summary data-en="Can I order custom-made?">في تفصيل مخصوص؟</summary><p data-en="Yes — a photo plus measurements, and we will tell you the material, price and time face to face.">أيوه — صورة + مقاسات، ونقولك الخامة والسعر والمدة وش في وش.</p></details>
+  </div>
+</div></section>
+
+<section class="nx-pitch"><div class="wrap"><div class="nx-box rv">
+  <p class="nx-k" data-en="✦ A private message from NEXORA to the owner of the House of Wood">✦ رسالة خاصة من NEXORA إلى صاحب بيت الخشب</p>
+  <h2 data-en="Dear Marrouf… a quarter million love you. <span>So where is your website?</span>">يا حاج معروف… ربع مليون بيحبوكم. <span>وفين موقعكم؟</span></h2>
+  <p class="nx-lead" data-en="This page is not a final website — it is a <b>free sample</b> made specially for you, so you can see with your own eyes what happens when your audience gets a real home.">الصفحة دي مش موقع نهائي — دي <b>عينة مجانية</b> اتعملت لك مخصوص، عشان تشوف بعينك جمهورك ده لو له بيت رسمي هيحصل إيه.</p>
+  <div class="nx-cols">
+    <div class="nx-col bad"><h3 data-en="What is happening now">اللي بيحصل دلوقتي</h3><ul><li data-en="168K followers asking for prices in comments — and replies get lost">168 ألف متابع بيسألوا على السعر في الكومنتات — والرد بيضيع</li><li data-en="No official website: whoever searches for you on Google finds only Facebook">مفيش موقع رسمي: اللي يدور عليك في جوجل يلاقي فيسبوك بس</li><li data-en="Cairo and Zayed orders come by luck, not by system">طلبات القاهرة وزايد بتيجي بالصدفة مش بنظام</li></ul></div>
+    <div class="nx-col good"><h3 data-en="What this page gives you">الصفحة دي بتقدملك إيه</h3><ul><li data-en="A priced catalog that answers before the customer asks — 24 hours">كتالوج بأسعار يرد قبل ما العميل يسأل — 24 ساعة</li><li data-en="Every WhatsApp button arrives with a ready question about the model">كل زرار واتساب بييجي بسؤال جاهز عن الموديل نفسه</li><li data-en="Finishing workshop + furnishing calculator + official Google presence">مشغل تشطيب + حاسبة فرش + ظهور رسمي في جوجل</li></ul></div>
+  </div>
+  <a class="btn btn-honey" data-nx href="#" data-en="Make this website yours — message us on WhatsApp">خلي الموقع ده باسمك — كلمنا واتساب</a>
+  <p class="nx-note" data-en="NEXORA — full build with your real photos and final prices within 5 working days.<br>WhatsApp: <bdi class=&quot;num&quot;>01062264302</bdi> · All our links: <a href=&quot;https://beacons.ai/nexora.01.eg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;text-decoration:underline;font-weight:700&quot;>beacons.ai/nexora.01.eg</a>">NEXORA — التنفيذ الكامل بصورك الحقيقية وأسعارك النهائية خلال 5 أيام عمل.<br>واتساب: <bdi class="num">01062264302</bdi> · كل لينكاتنا: <a href="https://beacons.ai/nexora.01.eg" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:700">beacons.ai/nexora.01.eg</a></p>
+</div></div></section>
+
+<section><div class="wrap"><div class="final rv">
+  <h2 data-en="Your home deserves wood <span>that outlives your grandkids</span>">بيتك يستاهل خشبة <span>تعيش لأحفادك</span></h2>
+  <p style="color:var(--sand);margin:12px 0 28px" data-en="The full catalog and prices in a single WhatsApp message.">الكتالوج الكامل والأسعار في رسالة واتساب واحدة.</p>
+  <a class="btn btn-honey" href="https://wa.me/201002763801?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D9%84%D9%88%D8%AC%20%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84">💬 واتساب: 01002763801</a>
+</div></div></section>
+
+<footer><div class="wrap">
+  <div><b style="font-family:'Aref Ruqaa';font-size:20px;color:var(--cream)" data-en="Marrouf — House of Wood">معروف بيت الخشب</b><br><span data-en="Nakhela St., Mansoura · © 2026">شارع النخلة، المنصورة · © 2026</span></div>
+  <div class="socials"><a href="https://www.facebook.com/Marrouffurniture/" target="_blank" rel="noopener" data-en="Facebook 168K">فيسبوك 168K</a><a href="https://www.instagram.com/marrouf_furniture/" target="_blank" rel="noopener" data-en="Instagram 55K">إنستجرام 55K</a><a href="https://www.tiktok.com/@marrouffurniture11" target="_blank" rel="noopener" data-en="TikTok">تيك توك</a></div>
+</div></footer>
+<a class="wa" href="https://wa.me/201002763801" aria-label="واتساب المعرض" data-en-aria="Showroom WhatsApp">💬</a>
+<script>
+/* حركات CX — نشارة + parallax + رسم التايم لاين + مغناطيسية + توست */
+(function(){
+var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* توست */
+var toast=document.createElement('div');toast.className='nx-toast';document.body.appendChild(toast);var tt;
+function showToast(m){toast.textContent=m;toast.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('show')},2600)}
+document.querySelectorAll('a[href*="wa.me"]').forEach(function(a){a.addEventListener('click',function(){showToast(window.__NX_LANG==='en'?'Opening WhatsApp — finish your order there 🪵':'بيفتح واتساب — كمّل طلبك هناك 🪵')})});
+if(rm)return;
+/* نشارة */
+var cv=document.getElementById('dust');
+if(cv){var ctx=cv.getContext('2d'),W=0,H=0,ps=[],run=true;
+function size(){var r=cv.parentElement.getBoundingClientRect();W=cv.width=Math.max(1,r.width);H=cv.height=Math.max(1,r.height)}
+function init(){var n=W<600?22:55;ps=[];for(var i=0;i<n;i++)ps.push({x:Math.random()*W,y:Math.random()*H,r:.8+Math.random()*2.2,s:.15+Math.random()*.45,o:Math.random()*6,os:.005+Math.random()*.02})}
+function tick(){if(run){ctx.clearRect(0,0,W,H);for(var i=0;i<ps.length;i++){var p=ps[i];p.y-=p.s;p.o+=p.os;if(p.y<-6){p.y=H+6;p.x=Math.random()*W}ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,7);ctx.fillStyle='rgba(223,162,88,'+(0.35+0.35*Math.sin(p.o)).toFixed(2)+')';ctx.fill()}}requestAnimationFrame(tick)}
+size();init();tick();
+addEventListener('resize',function(){size();init()});
+new IntersectionObserver(function(es){run=es[0].isIntersecting}).observe(cv.parentElement);}
+/* parallax + رسم التايم لاين */
+window.__arch={tx:0,ty:0,sy:0};window.applyArch=function(){var a=document.querySelector('.arch');if(a)a.style.transform='translateY('+window.__arch.sy.toFixed(1)+'px) perspective(900px) rotateX('+window.__arch.ty.toFixed(2)+'deg) rotateY('+window.__arch.tx.toFixed(2)+'deg)'};
+var arch=document.querySelector('.arch'),tl=document.querySelector('.tl'),ticking=false;
+function onScroll(){if(ticking)return;ticking=true;requestAnimationFrame(function(){ticking=false;
+if(arch){var r=arch.getBoundingClientRect(),vh=innerHeight;if(r.bottom>0&&r.top<vh){window.__arch.sy=Math.max(0,Math.min(110,scrollY*.07));window.applyArch()}}
+if(tl){var t=tl.getBoundingClientRect(),vh2=innerHeight,p=1-(t.bottom-vh2*.35)/(t.height+vh2*.3);tl.style.setProperty('--tlp',Math.max(0,Math.min(1,p)).toFixed(3))}})}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+/* مغناطيسية */
+if(matchMedia('(pointer:fine)').matches){document.querySelectorAll('.hero-cta .btn').forEach(function(b){b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate('+((e.clientX-r.left-r.width/2)*.12).toFixed(1)+'px,'+((e.clientY-r.top-r.height/2)*.18).toFixed(1)+'px)'});b.addEventListener('mouseleave',function(){b.style.transform=''})})}
+/* كشف الكلمات */
+if(!rm){document.querySelectorAll('[data-words]').forEach(function(h){var words=h.textContent.trim().split(/\s+/);h.setAttribute('aria-label',words.join(' '));h.innerHTML='';words.forEach(function(w,i){var s=document.createElement('span');s.className='w';s.textContent=w;s.style.transitionDelay=(i*70)+'ms';h.appendChild(s);h.appendChild(document.createTextNode(' '))});new IntersectionObserver(function(es,o){es.forEach(function(e){if(e.isIntersecting){h.classList.add('words-in');o.disconnect()}})},{threshold:.5}).observe(h)})}
+/* كويز الشخصية */
+(function(){
+var box=document.getElementById('woodQuiz');if(!box)return;
+var QS_AR=[
+ {t:'يومك المثالي شكله إيه؟',o:[{t:'☕ قهوة في البلكونة',k:'m'},{t:'👨‍👩‍👧 عزومة عيلة كبيرة',k:'z'},{t:'💼 شغل رايق من البيت',k:'a'}]},
+ {t:'ذوقك في الفرش؟',o:[{t:'كلاسيك دافئ',k:'m'},{t:'أصيل وعملي',k:'z'},{t:'فخم يلمع',k:'a'}]},
+ {t:'ميزانيتك؟',o:[{t:'عاقل وحنين',k:'m'},{t:'وسط ومحترم',k:'z'},{t:'مفتوحة للفخامة',k:'a'}]}];
+var FIN_AR={m:{n:'موسكي فاتح',d:'دافئ واقتصادي زي القهوة في البلكونة',i:2},z:{n:'زان روماني',d:'أصالة العيلة الكبيرة — الوسط المحترم',i:0},a:{n:'قشرة أرو',d:'فخامة تلمع زي شغلك الرايق',i:1}};
+var QS_EN=[{t:'What does your perfect day look like?',o:[{t:'☕ Coffee on the balcony',k:'m'},{t:'👨‍👩‍👧 A big family feast',k:'z'},{t:'💼 Calm work from home',k:'a'}]},{t:'Your furnishing taste?',o:[{t:'Warm classic',k:'m'},{t:'Authentic and practical',k:'z'},{t:'Shiny luxury',k:'a'}]},{t:'Your budget?',o:[{t:'Sensible and kind',k:'m'},{t:'Respectable middle',k:'z'},{t:'Open for luxury',k:'a'}]}];
+var FIN_EN={m:{n:'Light pine',d:'Warm and budget-friendly like balcony coffee',i:2},z:{n:'Romanian beech',d:'Big-family authenticity — the respectable middle',i:0},a:{n:'Oak veneer',d:'Luxury that shines like your calm work',i:1}};
+var step=0,tags={m:0,z:0,a:0};
+box.innerHTML='<h3>'+(window.__NX_LANG==='en'?'Wood test 🪵':'اختبار الخشبة 🪵')+'</h3><p class="qsub">'+(window.__NX_LANG==='en'?'Pick what looks like you — no overthinking':'اختار اللي شبهك — من غير تفكير كتير')+'</p><div class="qbody"></div><div class="qprog"></div>';
+var body=box.querySelector('.qbody'),prog=box.querySelector('.qprog');
+function render(){var QZ=(window.__NX_LANG==='en'?QS_EN:QS_AR),q=QZ[step];prog.textContent=(step+1)+' / '+QZ.length;body.innerHTML='<p class="qq">'+q.t+'</p><div class="qopts"></div>';var bx=body.querySelector('.qopts');
+q.o.forEach(function(o){var b=document.createElement('button');b.type='button';b.textContent=o.t;b.addEventListener('click',function(){tags[o.k]++;step++;if(step<QZ.length)render();else finish()});bx.appendChild(b)})}
+function finish(){var best='z',bn=-1;for(var k in tags)if(tags[k]>bn){bn=tags[k];best=k}
+var f=(window.__NX_LANG==='en'?FIN_EN:FIN_AR)[best];prog.textContent='✓';
+body.innerHTML='<div class="qres"><p class="qq">'+(window.__NX_LANG==='en'?'Your wood is…':'خشبتك هي…')+'</p><b>'+f.n+'</b><p class="qsub">'+f.d+'</p><div class="qopts"><button type="button" id="qGo">'+(window.__NX_LANG==='en'?'See it in the workshop ↓':'شوفها في المشغل ↓')+'</button></div></div>';
+var wb=document.querySelectorAll('#workshop .wood');if(wb[f.i])wb[f.i].click();
+document.getElementById('qGo').addEventListener('click',function(){document.getElementById('workshop').scrollIntoView({behavior:rm?'auto':'smooth'})});
+showToast('طلعت '+f.n+' — شغّلناها لك في المشغل 🪵')}
+render();
+window.__marroufQuiz=function(){step=0;tags={m:0,z:0,a:0};
+box.innerHTML='<h3>'+(window.__NX_LANG==='en'?'Wood test 🪵':'اختبار الخشبة 🪵')+'</h3><p class="qsub">'+(window.__NX_LANG==='en'?'Pick what looks like you — no overthinking':'اختار اللي شبهك — من غير تفكير كتير')+'</p><div class="qbody"></div><div class="qprog"></div>';
+body=box.querySelector('.qbody');prog=box.querySelector('.qprog');render()};
+})();
+/* الجولة المرشدة */
+document.getElementById('nxTour').addEventListener('click',function(){
+var stops=[
+ {sel:'.arch',msg:'1/4 — قوس التراث: أول حاجة العين تقع عليها. ده الانطباع الأول.',msge:'1/4 — The heritage arch: the first thing eyes land on. That is the first impression.'},
+ {sel:'#woodQuiz',msg:'2/4 — الكويز: الزائر بيلعب… والموقع بيجمّع طلب مؤهل.',msge:'2/4 — The quiz: the visitor plays… and the site collects a qualified lead.'},
+ {sel:'#calc',msg:'3/4 — الحاسبة: سعر فوري = فضول يتحول لواتساب.',msge:'3/4 — The calculator: instant price turns curiosity into WhatsApp.'},
+ {sel:'.nx-box',msg:'4/4 — وده الـpitch بتاعك يا حاج معروف. عايزه باسمك؟ دوس الواتساب ✦',msge:'4/4 — And this is your pitch, Marrouf. Want it in your name? Hit WhatsApp ✦'}];
+var i=0,timer=null;
+clearTimeout(window.__tourT);
+function step(){if(i>=stops.length){showToast(window.__NX_LANG==='en'?'Tour done — waiting for your signature, Marrouf ✦':'خلصت الجولة — مستني توقيعك يا حاج معروف ✦');return}
+var s=stops[i++],el=document.querySelector(s.sel);
+if(el){el.scrollIntoView({behavior:rm?'auto':'smooth',block:'center'});el.classList.add('tour-glow');setTimeout(function(){el.classList.remove('tour-glow')},2300)}
+showToast(window.__NX_LANG==='en'?(s.msge||s.msg):s.msg);window.__tourT=setTimeout(step,2700)}
+step()});
+})();
+</script>
+<script>
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+document.querySelectorAll('.fbtn').forEach(function(b){b.addEventListener('click',function(){
+  document.querySelectorAll('.fbtn').forEach(function(x){x.classList.remove('on');x.setAttribute('aria-pressed','false')});
+  b.classList.add('on');b.setAttribute('aria-pressed','true');
+  var f=b.dataset.f;document.querySelectorAll('#grid .card').forEach(function(c){c.style.display=(f==='all'||c.dataset.c===f)?'':'none'});
+})});
+var v=document.getElementById('wsView'),n=document.getElementById('wsName'),p=document.getElementById('wsPrice'),w=document.getElementById('wsWa');
+document.querySelectorAll('.wood').forEach(function(b){b.addEventListener('click',function(){
+  document.querySelectorAll('.wood').forEach(function(x){x.classList.remove('on')});b.classList.add('on');
+  v.style.background=b.dataset.bg;n.textContent=b.textContent.trim()+' — '+b.dataset.n;p.textContent=b.dataset.p+(window.__NX_LANG==='en'?' EGP':' ج.م');
+  w.href='https://wa.me/201002763801?text='+encodeURIComponent((window.__NX_LANG==='en'?'I want the price of ':'عايز سعر تشطيب ')+b.textContent.trim());
+})});
+</script>
+<script>
+/* طبقة ديمو NEXORA — بدّل الرقم برقمك الحقيقي */
+var NEXORA_WA='201062264302';
+(function(){
+  var msg='شفت العرض التجريبي لمعروف بيت الخشب — عايز موقع باسمي';
+  document.querySelectorAll('[data-nx]').forEach(function(a){a.href='https://wa.me/'+NEXORA_WA+'?text='+encodeURIComponent(msg);a.target='_blank';a.rel='noopener'});
+  var bar=document.getElementById('nxBar');
+  document.getElementById('nxX').addEventListener('click',function(){bar.style.display='none'});
+  var prog=document.getElementById('nxProg'),rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  addEventListener('scroll',function(){var h=document.documentElement;var p=h.scrollTop/((h.scrollHeight-h.clientHeight)||1);prog.style.transform='scaleX('+p+')'},{passive:true});
+  /* عدّادات */
+  var stats=document.querySelector('.stats-in');
+  function finalVals(){document.querySelectorAll('[data-count]').forEach(function(el){var t=parseFloat(el.dataset.count),d=parseInt(el.dataset.dec||'0');el.textContent=d?t.toFixed(d):Math.round(t).toLocaleString('en-US')})}
+  if(rm){finalVals()}
+  else{var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){finalVals0();cio.disconnect()}})},{threshold:.4});
+  function finalVals0(){document.querySelectorAll('[data-count]').forEach(function(el){var t=parseFloat(el.dataset.count),d=parseInt(el.dataset.dec||'0'),t0=null;function step(ts){if(!t0)t0=ts;var p=Math.min((ts-t0)/1600,1),v=t*(1-Math.pow(1-p,3));el.textContent=d?v.toFixed(d):Math.round(v).toLocaleString('en-US');if(p<1)requestAnimationFrame(step)}requestAnimationFrame(step)})}
+  if(stats)cio.observe(stats);}
+  /* آراء دوّارة */
+  var Q_AR=[['الخشب فعلًا خشب مش كلام إعلانات. التركيب في القاهرة تم في معاده بالدقيقة.','— عميل زايد'],['اتعاملت مع معارض كتير، بس هنا حسيت إن ورا المعرض ورشة بجد.','— أم مريم، المنصورة'],['كنت بسأل على السعر في الكومنتات — دلوقتي الكتالوج بيرد قبل ما أسأل.','— متابعة إنستجرام']];
+  var Q_EN=[['Real wood, not ad talk. Installation in Cairo right on time.','— Zayed customer'],['I have dealt with many showrooms, but here I felt a real workshop behind the store.','— Om Mariam, Mansoura'],['I used to ask the price in comments — now the catalog answers before I ask.','— Instagram follower']];
+  var qi=0,qEl=document.getElementById('tQuote'),wEl=document.getElementById('tWho'),dots=document.getElementById('tDots');
+  function showQ(i){qi=i;var QE=(window.__NX_LANG==='en'?Q_EN:Q_AR);qEl.classList.add('fade');setTimeout(function(){qEl.textContent=QE[i][0];wEl.textContent=QE[i][1];qEl.classList.remove('fade');if(dots)Array.prototype.forEach.call(dots.children,function(d,j){d.classList.toggle('on',j===i)})},rm?0:350)}
+  if(!rm&&qEl)setInterval(function(){showQ((qi+1)%Q.length)},5200);
+  /* حاسبة فرش الشقة */
+  var rooms=document.getElementById('c-rooms'),lvlP=150000,lvlN='وسط فاخر',total=document.getElementById('c-total'),det=document.getElementById('c-det'),cwa=document.getElementById('c-wa');
+  var rnames={'2':'أوضتين','3':'3 أوض','4':'4 أوض','5':'5 أوض'};
+  function calc2(){var r=+rooms.value,t=r*lvlP,EN=(window.__NX_LANG==='en');total.textContent=t.toLocaleString('en-US')+(EN?' EGP':' ج.م');var RN=EN?{'2':'2 rooms','3':'3 rooms','4':'4 rooms','5':'5 rooms'}:rnames;det.textContent=RN[String(r)]+' · '+lvlN+(EN?' — sofa, bedroom and dining, roughly':' — أنتريه ونوم وسفرة بالتقريب');cwa.href='https://wa.me/201002763801?text='+encodeURIComponent((EN?'Furnish an apartment, ':'عايز أفرش شقة ')+RN[String(r)]+(EN?' at ':' بمستوى ')+lvlN+(EN?' — estimate ':' — التقدير ')+t.toLocaleString('en-US')+(EN?' EGP':' ج.م'))}
+  rooms.addEventListener('change',calc2);
+  document.querySelectorAll('#calc .wood').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('#calc .wood').forEach(function(x){x.classList.remove('on')});b.classList.add('on');lvlP=+b.dataset.p;lvlN=b.dataset.n;calc2()})});
+  calc2();
+})();
+</script>
+<script>
+/* سينما الورشة */
+(function(){
+var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+var loader=document.getElementById('loader');
+function lift(){if(!loader||loader.classList.contains('lift'))return;loader.classList.add('lift');setTimeout(function(){if(loader&&loader.parentNode)loader.parentNode.removeChild(loader);loader=null},800)}
+if(rm){lift()}else{addEventListener('load',function(){setTimeout(lift,1000)});setTimeout(lift,2300)}
+if(rm)return;
+var hero=document.querySelector('.hero'),ct=document.getElementById('cineTop'),cb=document.getElementById('cineBot'),tick=false;
+function cine(){tick=false;if(!hero)return;var r=hero.getBoundingClientRect(),p=Math.max(0,Math.min(1,-r.top/((r.height)||1)));var s=(1-p*.93).toFixed(3);if(ct)ct.style.transform='scaleY('+s+')';if(cb)cb.style.transform='scaleY('+s+')'}
+addEventListener('scroll',function(){if(tick)return;tick=true;requestAnimationFrame(cine)},{passive:true});cine();
+})();
+</script>
+<script>
+/* الجولة البصرية: خروج الهيرو + سرعة الماركي + ميل القوس + ripple */
+(function(){
+var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(rm)return;
+var hero=document.querySelector('.hero'),copy=document.querySelector('.hero-grid>div:first-child'),tick=false,lastY=scrollY,mqCur=26;
+var track=document.querySelector('.mq-track'),mqVisible=true;
+if(track)new IntersectionObserver(function(es){mqVisible=es[0].isIntersecting}).observe(track);
+function journey(){tick=false;var y=scrollY,v=Math.abs(y-lastY);lastY=y;
+if(hero&&copy){var r=hero.getBoundingClientRect(),p=Math.max(0,Math.min(1,-r.top/((r.height)||1)));copy.style.transform='translateY('+(p*90).toFixed(1)+'px) scale('+(1-p*.05).toFixed(3)+')';copy.style.opacity=Math.max(0,1-p*1.5).toFixed(2)}
+if(track&&mqVisible){var target=Math.max(6,Math.min(26,26/(1+v*.03)));mqCur+=(target-mqCur)*.12;track.style.animationDuration=mqCur.toFixed(2)+'s'}
+document.querySelectorAll('.ghost').forEach(function(g){var sr=g.parentElement.getBoundingClientRect();g.style.transform='translateY('+(sr.top*parseFloat(g.dataset.sp||-.1)).toFixed(1)+'px)'})}
+addEventListener('scroll',function(){if(tick)return;tick=true;requestAnimationFrame(journey)},{passive:true});journey();
+var arch=document.querySelector('.arch');
+if(arch&&matchMedia('(pointer:fine)').matches){arch.addEventListener('mousemove',function(e){var r=arch.getBoundingClientRect();window.__arch.tx=((e.clientX-r.left)/r.width-.5)*7;window.__arch.ty=-((e.clientY-r.top)/r.height-.5)*7;window.applyArch()});arch.addEventListener('mouseleave',function(){window.__arch.tx=0;window.__arch.ty=0;window.applyArch()})}
+document.querySelectorAll('.btn').forEach(function(b){b.addEventListener('click',function(e){try{var r=b.getBoundingClientRect(),sz=Math.max(r.width,r.height),s=document.createElement('span');s.className='rip';s.style.width=s.style.height=sz+'px';s.style.left=(e.clientX-r.left-sz/2)+'px';s.style.top=(e.clientY-r.top-sz/2)+'px';b.appendChild(s);setTimeout(function(){s.remove()},650)}catch(err){}})});
+})();
+</script>
+<script>
+/* الثيم واللغة */
+(function(){
+var root=document.documentElement,DEF='dark',SITE='marrouf';
+var tb=document.getElementById('themeBtn'),lb=document.getElementById('langBtn');
+function applyTheme(t){if(t===DEF)root.removeAttribute('data-theme');else root.setAttribute('data-theme',t);if(tb)tb.textContent=(t==='dark')?'☀️':'🌙';try{localStorage.setItem('nx-theme-'+SITE,t)}catch(e){}}
+var th=DEF;try{th=localStorage.getItem('nx-theme-'+SITE)||DEF}catch(e){}
+if(tb)tb.addEventListener('click',function(){var cur=root.getAttribute('data-theme')||DEF;applyTheme(cur==='dark'?'light':'dark')});
+applyTheme(th);
+var LANG='ar';
+try{LANG=localStorage.getItem('nx-lang-'+SITE)||'ar'}catch(e){}
+function setLang(l){LANG=l;window.__NX_LANG=l;var en=(l==='en');
+document.querySelectorAll('[data-en]').forEach(function(el){if(!el.dataset.ar)el.dataset.ar=el.innerHTML;el.innerHTML=en?el.dataset.en:el.dataset.ar});
+document.querySelectorAll('[data-en-ph]').forEach(function(el){if(!el.dataset.arPh)el.dataset.arPh=el.placeholder;el.placeholder=en?el.dataset.enPh:el.dataset.arPh});
+document.querySelectorAll('[data-en-aria]').forEach(function(el){if(!el.dataset.arAria)el.dataset.arAria=el.getAttribute('aria-label');if(en)el.setAttribute('aria-label',el.dataset.enAria);else if(el.dataset.arAria)el.setAttribute('aria-label',el.dataset.arAria)});
+root.lang=l;root.dir=en?'ltr':'rtl';
+if(lb)lb.textContent=en?'عربي':'EN';
+try{localStorage.setItem('nx-lang-'+SITE,l)}catch(e){}
+if(window.__langHook){try{window.__langHook(en)}catch(e){}}}
+if(lb)lb.addEventListener('click',function(){setLang(LANG==='ar'?'en':'ar')});
+window.__langHook=function(en){
+function remap(sel,key,EN){document.querySelectorAll(sel).forEach(function(b,i){var d=b.dataset;if(!d['AR_'+key])d['AR_'+key]=d[key];d[key]=en?EN[i]:d['AR_'+key]})}
+remap('#workshop .wood','n',['Romanian beech — dark honey','Natural oak veneer — luxurious grain','Light pine — budget and authentic']);
+remap('#calc .wood','n',['Budget classic','Mid luxury','Royal luxury']);
+var w=document.querySelector('#workshop .wood.on');if(w)w.click();
+var lv=document.querySelector('#calc .wood.on');if(lv)lv.click();
+if(window.__marroufQuiz)window.__marroufQuiz();
+};
+setLang(LANG);
+window.__setLang=setLang;
+})();
+</script>
+</body>
+</html>
